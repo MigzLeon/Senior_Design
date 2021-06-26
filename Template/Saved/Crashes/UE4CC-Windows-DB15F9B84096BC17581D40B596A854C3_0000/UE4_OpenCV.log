@@ -1,0 +1,1065 @@
+﻿Log file open, 06/05/21 14:06:21
+LogInit: Display: Running engine for game: UE4_OpenCV
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.323437
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin LeapUnreal
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:075][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.05-18.06.23:075][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.05-18.06.23:076][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:076][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:083][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.05-18.06.23:083][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.05-18.06.23:084][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.05-18.06.23:085][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.05-18.06.23:085][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.05-18.06.23:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.05-18.06.23:087][  0]LogHAL: Display: Platform has ~ 32 GB [34269143040 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.05-18.06.23:087][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.05-18.06.23:087][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.05-18.06.23:087][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.05-18.06.23:088][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.05-18.06.23:089][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.05-18.06.23:090][  0]LogInit: Computer: KYUBI
+[2021.06.05-18.06.23:090][  0]LogInit: User: Migz
+[2021.06.05-18.06.23:090][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.06.05-18.06.23:090][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.05-18.06.23:090][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.06.05-18.06.23:091][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.05-18.06.23:091][  0]LogMemory: Process Physical Memory: 119.95 MB used, 119.95 MB peak
+[2021.06.05-18.06.23:091][  0]LogMemory: Process Virtual Memory: 110.09 MB used, 110.09 MB peak
+[2021.06.05-18.06.23:091][  0]LogMemory: Physical Memory: 11295.70 MB used,  21385.90 MB free, 32681.60 MB total
+[2021.06.05-18.06.23:091][  0]LogMemory: Virtual Memory: 5235.08 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2021.06.05-18.06.23:099][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.05-18.06.23:261][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.05-18.06.23:265][  0]LogInit: Using OS detected language (en-US).
+[2021.06.05-18.06.23:265][  0]LogInit: Using OS detected locale (en-US).
+[2021.06.05-18.06.23:293][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.06.05-18.06.23:546][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.05-18.06.23:598][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.05-18.06.23:599][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.05-18.06.23:966][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.05-18.06.23:966][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.05-18.06.23:966][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.05-18.06.24:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2021.06.05-18.06.24:065][  0]LogD3D11RHI:       11048/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.06.05-18.06.24:067][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.05-18.06.24:067][  0]LogD3D11RHI:       0/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.05-18.06.24:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.05-18.06.24:080][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.05-18.06.24:080][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.05-18.06.24:080][  0]LogWindows: EnumDisplayDevices:
+[2021.06.05-18.06.24:080][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2021.06.05-18.06.24:080][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2021.06.05-18.06.24:081][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2021.06.05-18.06.24:081][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2021.06.05-18.06.24:081][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.06.05-18.06.24:081][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2021.06.05-18.06.24:081][  0]LogD3D11RHI:   Driver Version: 466.27 (internal:27.21.14.6627, unified:466.27)
+[2021.06.05-18.06.24:081][  0]LogD3D11RHI:      Driver Date: 4-23-2021
+[2021.06.05-18.06.24:081][  0]LogRHI: Texture pool is 7733 MB (70% of 11048 MB)
+[2021.06.05-18.06.24:166][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.05-18.06.24:166][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.05-18.06.24:166][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.05-18.06.24:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.05-18.06.24:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.05-18.06.24:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.05-18.06.24:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.05-18.06.24:624][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.05-18.06.24:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.06.05-18.06.24:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.06.05-18.06.24:656][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.06.05-18.06.24:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.06.05-18.06.24:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.06.05-18.06.24:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.06.05-18.06.24:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.06.05-18.06.24:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.05-18.06.24:721][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.05-18.06.24:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.05-18.06.24:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.05-18.06.24:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.05-18.06.24:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.05-18.06.24:764][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.05-18.06.24:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.05-18.06.24:774][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.05-18.06.24:789][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.05-18.06.24:898][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Intermediate/Shaders/WorkingDirectory/20176/).
+[2021.06.05-18.06.24:898][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Migz/AppData/Local/Temp/UnrealShaderWorkingDir/C56A089147786EE84732A88598802214/'.
+[2021.06.05-18.06.24:900][  0]LogXGEController: Cleaning working directory: C:/Users/Migz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.06.05-18.06.24:900][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.06.05-18.06.24:900][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.05-18.06.24:900][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.05-18.06.25:742][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: Loaded boot cache 0.21s 90MB C:/Users/Migz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Migz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.05-18.06.25:952][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.06.05-18.06.25:964][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.05-18.06.25:964][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.05-18.06.25:964][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.06.05-18.06.25:965][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Migz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.05-18.06.25:965][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.05-18.06.25:965][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.05-18.06.26:023][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.05-18.06.26:028][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.05-18.06.26:082][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
+[2021.06.05-18.06.26:546][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.05-18.06.26:732][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.05-18.06.26:732][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.05-18.06.26:732][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.05-18.06.26:732][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.05-18.06.26:732][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.05-18.06.26:772][  0]LogNetVersion: UE4_OpenCV 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3463656170)
+[2021.06.05-18.06.27:540][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019C250542C0), frame # 0
+[2021.06.05-18.06.27:540][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C24F911C0), frame # 0
+[2021.06.05-18.06.27:544][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C24FE2600), frame # 0
+[2021.06.05-18.06.27:600][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.033034 seconds
+[2021.06.05-18.06.27:605][  0]LogUObjectArray: 15814 objects as part of root set at end of initial load.
+[2021.06.05-18.06.27:605][  0]LogUObjectAllocator: 3939424 out of 0 bytes used by permanent object pool.
+[2021.06.05-18.06.27:605][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.05-18.06.28:375][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.05-18.06.28:383][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.05-18.06.31:651][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.31:652][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.31:664][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.31:670][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.31:685][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.32:151][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.05-18.06.32:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.05-18.06.32:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.05-18.06.32:250][  0]LogOcInput: OculusInput pre-init called
+[2021.06.05-18.06.33:133][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2021.06.05-18.06.33:133][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2021.06.05-18.06.33:133][  0]LeapMotionLog: Leap Plugin started v3.6
+[2021.06.05-18.06.51:287][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.05-18.06.51:422][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.05-18.06.51:422][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.05-18.06.51:474][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.05-18.06.51:474][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2021.06.05-18.06.51:478][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.05-18.06.51:478][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.05-18.06.51:478][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.05-18.06.51:481][  0]LogEngine: Initializing Engine...
+[2021.06.05-18.06.51:482][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.05-18.06.51:485][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.06.05-18.06.51:604][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.05-18.06.51:638][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.05-18.06.51:639][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C2E977C00), frame # 0
+[2021.06.05-18.06.51:639][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C2E9B6C00), frame # 0
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.05-18.06.51:652][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.05-18.06.51:652][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.05-18.06.51:653][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.05-18.06.51:653][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.05-18.06.51:684][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.05-18.06.51:684][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.05-18.06.51:724][  0]LogAudioMixer: Display: Using Audio Device SE32HY10 (NVIDIA High Definition Audio)
+[2021.06.05-18.06.51:726][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.05-18.06.51:731][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.05-18.06.51:731][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.05-18.06.51:732][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.05-18.06.51:733][  0]LogInit: FAudioDevice initialized.
+[2021.06.05-18.06.51:734][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.05-18.06.51:817][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Migz/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.06.05-18.06.51:817][  0]LogInit: Texture streaming: Enabled
+[2021.06.05-18.06.51:859][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.05-18.06.51:859][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.05-18.06.51:872][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.05-18.06.51:918][  0]LogInit: Transaction tracking system initialized
+[2021.06.05-18.06.51:966][  0]BlueprintLog: New page: Editor Load
+[2021.06.05-18.06.52:134][  0]LocalizationService: Localization service is disabled
+[2021.06.05-18.06.52:437][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.06.05-18.06.52:438][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.05-18.06.52:732][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/' took 0.03s
+[2021.06.05-18.06.52:732][  0]SourceControl: Source control is disabled
+[2021.06.05-18.06.52:733][  0]LogUnrealEdMisc: Loading editor; pre map load, took 36.298
+[2021.06.05-18.06.52:733][  0]Cmd: MAP LOAD FILE="F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-18.06.52:812][  0]LightingResults: New page: Lighting Build
+[2021.06.05-18.06.52:822][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.05-18.06.52:822][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.06.52:823][  0]MapCheck: New page: Map Check
+[2021.06.05-18.06.52:823][  0]LightingResults: New page: Lighting Build
+[2021.06.05-18.06.52:842][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019C2E977C00), frame # 0
+[2021.06.05-18.06.52:842][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019C2E9B6C00), frame # 0
+[2021.06.05-18.06.52:843][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.06.05-18.06.52:846][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/StarterContent/Maps/Minimal_Default.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.52:996][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.53:088][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/PostOpenCVMat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.53:134][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.53:154][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.53:212][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/RawOpenCVMediaMat.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.53:278][  0]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/OpenCVReader/MediaRenderTarget.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.06.54:749][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.05-18.06.54:749][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C19D00A00), frame # 0
+[2021.06.05-18.06.54:749][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C19CA2980), frame # 0
+[2021.06.05-18.06.54:780][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-18.06.54:857][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.06.05-18.06.54:857][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.05-18.06.54:859][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.802ms to complete.
+[2021.06.05-18.06.54:859][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.126
+[2021.06.05-18.06.54:987][  0]LogUnrealEdMisc: Total Editor Startup Time, took 38.553
+[2021.06.05-18.06.55:058][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.05-18.06.55:192][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.06.55:200][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.06.55:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.06.55:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.06.55:241][  0]LogCollectionManager: Loaded 0 collections in 0.001780 seconds
+[2021.06.05-18.06.55:300][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/Collections/' took 0.00s
+[2021.06.05-18.06.55:300][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Developers/Migz/Collections/' took 0.00s
+[2021.06.05-18.06.55:300][  0]LogFileCache: Scanning file cache for directory 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Collections/' took 0.00s
+[2021.06.05-18.06.55:300][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3436 classes and 825 folders.
+[2021.06.05-18.06.55:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.06.05-18.06.55:610][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.06.05-18.06.55:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2021.06.05-18.06.55:888][  0]LogSlate: Took 0.001100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.05-18.06.55:892][  0]LogSlate: Took 0.001038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.05-18.06.55:899][  0]LogSlate: Took 0.001043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.05-18.06.55:980][  0]LogRenderer: Reallocating scene render targets to support 740x376 Format 10 NumSamples 1 (Frame:1).
+[2021.06.05-18.06.56:120][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.06.05-18.06.56:120][  0]LogLoad: (Engine Initialization) Total time: 39.69 seconds
+[2021.06.05-18.06.56:120][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.05-18.06.56:405][  0]LeapMotionLog: ServiceMessageLoop started.
+[2021.06.05-18.06.56:405][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2021.06.05-18.06.56:407][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2021.06.05-18.06.56:441][  0]LogAssetRegistry: Asset discovery search completed in 30.3615 seconds
+[2021.06.05-18.06.56:444][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.06.05-18.06.56:445][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.05-18.06.56:509][  0]LogSlate: Took 0.001362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.05-18.06.56:607][  6]LeapMotionLog: LeapService: OnConnect.
+[2021.06.05-18.06.56:611][  6]LeapMotionLog: OnDeviceFound Peripheral S324A010887.
+[2021.06.05-18.06.57:149][ 65]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.05-18.07.10:871][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/F_V_Launcher.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.10:872][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Fruits.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.10:873][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Fruit_Bucket.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.10:976][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Score_Fruit.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.10:981][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Veg_Bucket.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:321][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/LowPolyFarm/Meshes/Plants/Mesh_Plants_Apple_02.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:364][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/LowPolyFarm/Meshes/Plants/Mesh_Plants_Pineapple_01.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:374][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Vegetables.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:382][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Score_Veg.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:454][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Fruit_Text.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:456][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Time.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:463][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/Veg_Text.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.11:468][493]LogLinker: Warning: Asset 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/PickupAndDrop/KinematicPickupItemActor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2021.06.05-18.07.15:001][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0100
+[2021.06.05-18.07.15:001][493]LogScript: Warning: Accessed None trying to read property CallFunc_RightArm_ReturnValue
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:012C
+[2021.06.05-18.07.15:001][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0141
+[2021.06.05-18.07.15:001][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0156
+[2021.06.05-18.07.15:008][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:005B
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property CallFunc_LeftArm_ReturnValue
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:0087
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:009C
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:00B1
+[2021.06.05-18.07.15:012][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0100
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property CallFunc_RightArm_ReturnValue
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:012C
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0141
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0156
+[2021.06.05-18.07.15:012][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:005B
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None trying to read property CallFunc_LeftArm_ReturnValue
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:0087
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:009C
+[2021.06.05-18.07.15:012][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:00B1
+[2021.06.05-18.07.15:012][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:043][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0100
+[2021.06.05-18.07.15:043][493]LogScript: Warning: Accessed None trying to read property CallFunc_RightArm_ReturnValue
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:012C
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0141
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0156
+[2021.06.05-18.07.15:044][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:005B
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property CallFunc_LeftArm_ReturnValue
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:0087
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:009C
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_497.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:00B1
+[2021.06.05-18.07.15:044][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0100
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property CallFunc_RightArm_ReturnValue
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:012C
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0141
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0156
+[2021.06.05-18.07.15:044][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:005B
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None trying to read property CallFunc_LeftArm_ReturnValue
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:0087
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:009C
+[2021.06.05-18.07.15:044][493]LogScript: Warning: Accessed None
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:00B1
+[2021.06.05-18.07.15:045][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:062][493]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap
+[2021.06.05-18.07.15:097][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.06.05-18.07.15:098][493]Cmd: MAP LOAD FILE="F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/BasketBanditMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-18.07.15:098][493]LightingResults: New page: Lighting Build
+[2021.06.05-18.07.15:098][493]LoadErrors: New page: Loading map: BasketBanditMap.umap
+[2021.06.05-18.07.15:138][493]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2021.06.05-18.07.15:138][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.07.15:138][493]MapCheck: New page: Map Check
+[2021.06.05-18.07.15:138][493]LightingResults: New page: Lighting Build
+[2021.06.05-18.07.15:150][493]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019C19D00A00), frame # 1493
+[2021.06.05-18.07.15:150][493]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019C19CA2980), frame # 1493
+[2021.06.05-18.07.15:151][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.06.05-18.07.15:179][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyRightAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Right.BSLowPolyRightAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyRightAnimBP.BSLowPolyRightAnimBP_C:ExecuteUbergraph_BSLowPolyRightAnimBP:0100
+[2021.06.05-18.07.15:179][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:179][493]LogScript: Warning: Accessed None trying to read property BodyStateSkeleton
+	BSLowPolyLeftAnimBP_C /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap:PersistentLevel.ChildActor_GEN_VARIABLE_BSLowPolyHand_C_CAT_494.Left.BSLowPolyLeftAnimBP_C_0
+	Function /LeapMotion/BodyState/BSLowPolyLeftAnimBP.BSLowPolyLeftAnimBP_C:ExecuteUbergraph_BSLowPolyLeftAnimBP:005B
+[2021.06.05-18.07.15:180][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:180][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:181][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:234][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:235][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:235][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:235][493]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.07.15:428][493]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-18.07.15:428][493]LogAIModule: Creating AISystem for world BasketBanditMap
+[2021.06.05-18.07.15:429][493]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C57ECF600), frame # 1493
+[2021.06.05-18.07.15:429][493]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C598DEC00), frame # 1493
+[2021.06.05-18.07.15:458][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.06.05-18.07.15:475][493]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.05-18.07.15:475][493]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.362ms to complete.
+[2021.06.05-18.07.15:475][493]LogFileHelpers: Loading map 'BasketBanditMap' took 0.377
+[2021.06.05-18.07.15:597][493]LogRenderer: Reallocating scene render targets to support 4096x4096 Format 10 NumSamples 1 (Frame:0).
+[2021.06.05-18.07.18:413][755]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.07.18:434][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.06.05-18.07.45:762][673]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.06.05-18.07.50:711][261]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.06.05-18.07.50:711][261]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.05-18.10.11:729][170]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.05-18.10.11:984][170]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.06.05-18.10.12:820][170]LogSlate: Took 0.001232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.05-18.10.12:934][171]LogSlate: Took 0.001189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.05-18.10.24:368][389]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.06.05-18.10.24:405][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.06.05-18.10.51:173][ 90]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.10.51:201][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.06.05-18.10.52:470][ 90]LogSlate: Window 'Save Content' being destroyed
+[2021.06.05-18.10.52:525][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.06.05-18.10.53:331][ 90]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/BasketBanditMap6D6CBAE14EBE0B2AE48F5CA8A137D7E3.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/BasketBanditMap.umap'
+[2021.06.05-18.10.53:351][ 90]LogFileHelpers: Saving map 'BasketBanditMap' took 0.846
+[2021.06.05-18.10.53:383][ 90]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/FirstPersonCharacter821354A24603AAC46170039B979A820B.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.06.05-18.10.53:418][ 91]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.05-18.10.53:418][ 91]LogContentValidation: Display: Validating World /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap
+[2021.06.05-18.10.53:418][ 91]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.06.05-18.11.37:235][554]LeapMotionLog: LeapServiceLog: Tracking optimized for up-facing device
+[2021.06.05-18.11.48:911][936]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.05-18.12.14:450][904]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.12.14:479][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.06.05-18.12.16:190][904]LogSlate: Window 'Save Content' being destroyed
+[2021.06.05-18.12.16:244][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.06.05-18.12.16:965][904]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/BasketBanditMapD18EE4044C5321FA92DE55935B28D6B9.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/BasketBandit/BasketBanditMap.umap'
+[2021.06.05-18.12.16:982][904]LogFileHelpers: Saving map 'BasketBanditMap' took 0.760
+[2021.06.05-18.12.17:032][905]AssetCheck: New page: Asset Save: BasketBanditMap
+[2021.06.05-18.12.17:032][905]LogContentValidation: Display: Validating World /Game/Blueprints/BasketBandit/BasketBanditMap.BasketBanditMap
+[2021.06.05-18.12.33:921][269]LeapMotionLog: LeapServiceLog: Tracking optimized for up-facing device
+[2021.06.05-18.12.42:187][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:187][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:188][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:188][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:190][154]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Modules/HelloWorld/DesktopHelloWorld.DesktopHelloWorld
+[2021.06.05-18.12.42:209][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.06.05-18.12.42:210][154]Cmd: MAP LOAD FILE="F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-18.12.42:210][154]LightingResults: New page: Lighting Build
+[2021.06.05-18.12.42:210][154]LoadErrors: New page: Loading map: DesktopHelloWorld.umap
+[2021.06.05-18.12.42:230][154]LogWorld: UWorld::CleanupWorld for BasketBanditMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.05-18.12.42:230][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.12.42:231][154]MapCheck: New page: Map Check
+[2021.06.05-18.12.42:231][154]LightingResults: New page: Lighting Build
+[2021.06.05-18.12.42:261][154]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019C598DEC00), frame # 27154
+[2021.06.05-18.12.42:261][154]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019C57ECF600), frame # 27154
+[2021.06.05-18.12.42:267][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.06.05-18.12.42:269][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:270][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:270][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:271][154]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.12.42:325][154]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-18.12.42:325][154]LogAIModule: Creating AISystem for world DesktopHelloWorld
+[2021.06.05-18.12.42:325][154]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C57942200), frame # 27154
+[2021.06.05-18.12.42:325][154]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C56036980), frame # 27154
+[2021.06.05-18.12.42:343][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.06.05-18.12.42:359][154]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.05-18.12.42:359][154]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.074ms to complete.
+[2021.06.05-18.12.42:359][154]LogFileHelpers: Loading map 'DesktopHelloWorld' took 0.149
+[2021.06.05-18.12.44:810][417]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.12.44:837][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.06.05-18.13.06:974][830]LeapMotionLog: LeapServiceLog: Tracking optimized for up-facing device
+[2021.06.05-18.13.09:823][166]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.13.13:890][598]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.13.13:917][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.06.05-18.13.15:226][598]LogSlate: Window 'Save Content' being destroyed
+[2021.06.05-18.13.15:284][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.06.05-18.13.15:295][598]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld429628F14151D3B2BB00349127A0F661.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld.umap'
+[2021.06.05-18.13.15:311][598]LogFileHelpers: Saving map 'DesktopHelloWorld' took 0.046
+[2021.06.05-18.13.15:321][598]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld_BuiltData0BAC31004CC93F7D3BE570A8F4D4B758.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld_BuiltData.uasset'
+[2021.06.05-18.13.15:329][598]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld_BuiltDataAE33E2A9401D3E7C08143FB11693F38D.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld_BuiltData.uasset'
+[2021.06.05-18.13.15:356][599]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.05-18.13.15:356][599]LogContentValidation: Display: Validating World /Game/Modules/HelloWorld/DesktopHelloWorld.DesktopHelloWorld
+[2021.06.05-18.13.15:356][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Modules/HelloWorld/DesktopHelloWorld_BuiltData.DesktopHelloWorld_BuiltData
+[2021.06.05-18.14.20:850][834]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.14.23:096][ 71]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.14.24:295][175]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.14.27:994][591]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.14.32:310][ 51]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.14.32:362][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.06.05-18.14.33:639][ 51]LogSlate: Window 'Save Content' being destroyed
+[2021.06.05-18.14.33:675][ 51]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/GenericGameMode431273EB4536C3DE2E5D73B34BA5AAE3.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/GenericItems/GenericGameMode.uasset'
+[2021.06.05-18.14.33:699][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.06.05-18.14.33:709][ 51]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld4B18062549229097F8AEF1A2A3CF6AAB.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld.umap'
+[2021.06.05-18.14.33:726][ 51]LogFileHelpers: Saving map 'DesktopHelloWorld' took 0.050
+[2021.06.05-18.14.33:733][ 51]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld_BuiltData31AC0257449E09B0E26D06A845435FA6.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld_BuiltData.uasset'
+[2021.06.05-18.14.33:740][ 51]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/DesktopHelloWorld_BuiltData04CE207843B482F9EB0D0FB934406073.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/DesktopHelloWorld_BuiltData.uasset'
+[2021.06.05-18.14.33:772][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.05-18.14.33:772][ 52]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GenericItems/GenericGameMode.GenericGameMode
+[2021.06.05-18.14.33:772][ 52]LogContentValidation: Display: Validating World /Game/Modules/HelloWorld/DesktopHelloWorld.DesktopHelloWorld
+[2021.06.05-18.14.33:772][ 52]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Modules/HelloWorld/DesktopHelloWorld_BuiltData.DesktopHelloWorld_BuiltData
+[2021.06.05-18.16.41:945][224]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.16.57:043][913]LogTemp: Repeating last play command: Standalone Game
+[2021.06.05-18.16.57:072][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.06.05-18.16.59:051][913]LogSlate: Window 'Save Content' being destroyed
+[2021.06.05-18.16.59:102][913]LogSavePackage: Moving 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Saved/GenericGameMode1EF93EC8439A6D12AA050FA3B05CE021.tmp' to 'F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Blueprints/GenericItems/GenericGameMode.uasset'
+[2021.06.05-18.16.59:131][914]AssetCheck: New page: Asset Save: GenericGameMode
+[2021.06.05-18.16.59:132][914]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GenericItems/GenericGameMode.GenericGameMode
+[2021.06.05-18.17.21:944][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.05-18.17.21:945][127]PIE: New page: PIE session: DesktopHelloWorld (Jun 5, 2021, 10:17:21 AM)
+[2021.06.05-18.17.21:946][127]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.05-18.17.21:947][127]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.05-18.17.21:947][127]LogPlayLevel: Creating play world package: /Game/Modules/HelloWorld/UEDPIE_0_DesktopHelloWorld
+[2021.06.05-18.17.21:949][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
+[2021.06.05-18.17.21:950][127]LogAIModule: Creating AISystem for world DesktopHelloWorld
+[2021.06.05-18.17.21:950][127]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CD9783E00), frame # 38127
+[2021.06.05-18.17.21:950][127]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CCBDAB4C0), frame # 38127
+[2021.06.05-18.17.21:950][127]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2021.06.05-18.17.21:950][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/HelloWorld/DesktopHelloWorld.DesktopHelloWorld to /Game/Modules/HelloWorld/UEDPIE_0_DesktopHelloWorld.DesktopHelloWorld (0.002880s)
+[2021.06.05-18.17.21:972][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.05-18.17.21:974][127]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.05-18.17.21:975][127]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.05-18.17.21:975][127]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.05-18.17.21:975][127]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.05-18.17.21:981][127]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.05-18.17.21:981][127]LogAudioMixer: Display: 1: FrontRight
+[2021.06.05-18.17.21:999][127]LogAudioMixer: Display: Using Audio Device SE32HY10 (NVIDIA High Definition Audio)
+[2021.06.05-18.17.21:999][127]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.05-18.17.21:999][127]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.05-18.17.21:999][127]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.05-18.17.22:000][127]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.05-18.17.22:010][127]LogInit: FAudioDevice initialized.
+[2021.06.05-18.17.22:019][127]LogLoad: Game class is 'GenericGameMode_C'
+[2021.06.05-18.17.22:020][127]LogTemp: Bone cache synced: 0
+[2021.06.05-18.17.22:021][127]LogTemp: Bone cache synced: 20
+[2021.06.05-18.17.22:021][127]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.17.22:021][127]LogTemp: Bone cache synced: 0
+[2021.06.05-18.17.22:021][127]LogTemp: Bone cache synced: 20
+[2021.06.05-18.17.22:021][127]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.17.22:021][127]LogWorld: Bringing World /Game/Modules/HelloWorld/UEDPIE_0_DesktopHelloWorld.DesktopHelloWorld up for play (max tick rate 0) at 2021.06.05-14.17.22
+[2021.06.05-18.17.22:021][127]LogWorld: Bringing up level for play took: 0.000951
+[2021.06.05-18.17.22:021][127]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.06.05-18.17.22:025][127]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.06.05-18.17.22:025][127]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.06.05-18.17.22:025][127]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.06.05-18.17.22:025][127]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.06.05-18.17.22:025][127]LogTemp: Bone cache synced: 0
+[2021.06.05-18.17.22:025][127]LogTemp: Bone cache synced: 20
+[2021.06.05-18.17.22:025][127]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.17.22:025][127]LogTemp: Bone cache synced: 0
+[2021.06.05-18.17.22:026][127]LogTemp: Bone cache synced: 20
+[2021.06.05-18.17.22:026][127]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.17.22:026][127]LogBlueprintUserMessages: [LeapHandsPawn_C_0] Adjusting Origin for None
+[2021.06.05-18.17.22:026][127]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.06.05-18.17.22:026][127]PIE: Server logged in
+[2021.06.05-18.17.22:027][127]PIE: Play in editor total start time 0.088 seconds.
+[2021.06.05-18.17.31:661][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.17.31:661][165]LogWorld: BeginTearingDown for /Game/Modules/HelloWorld/UEDPIE_0_DesktopHelloWorld
+[2021.06.05-18.17.31:662][165]LogWorld: UWorld::CleanupWorld for DesktopHelloWorld, bSessionEnded=true, bCleanupResources=true
+[2021.06.05-18.17.31:662][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.17.31:669][165]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.05-18.17.31:673][165]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.17.31:713][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.05-18.17.31:729][165]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CCBDAB4C0), frame # 39165
+[2021.06.05-18.17.31:729][165]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CD9783E00), frame # 39165
+[2021.06.05-18.17.31:747][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.06.05-18.17.31:766][166]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.06.05-18.19.53:308][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:308][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:309][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:309][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:311][791]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Modules/HelloWorld/VRHelloWorld.VRHelloWorld
+[2021.06.05-18.19.53:357][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.06.05-18.19.53:360][791]Cmd: MAP LOAD FILE="F:/GitHub-GitLab/SeniorDesign/senior_design_backup/Template/Content/Modules/HelloWorld/VRHelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.05-18.19.53:360][791]LightingResults: New page: Lighting Build
+[2021.06.05-18.19.53:360][791]LoadErrors: New page: Loading map: VRHelloWorld.umap
+[2021.06.05-18.19.53:361][791]LogWorld: UWorld::CleanupWorld for DesktopHelloWorld, bSessionEnded=true, bCleanupResources=true
+[2021.06.05-18.19.53:361][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.05-18.19.53:361][791]MapCheck: New page: Map Check
+[2021.06.05-18.19.53:361][791]LightingResults: New page: Lighting Build
+[2021.06.05-18.19.53:381][791]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019C56036980), frame # 39791
+[2021.06.05-18.19.53:381][791]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019C57942200), frame # 39791
+[2021.06.05-18.19.53:384][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.06.05-18.19.53:386][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:387][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:389][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:389][791]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.19.53:450][791]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.05-18.19.53:450][791]LogAIModule: Creating AISystem for world VRHelloWorld
+[2021.06.05-18.19.53:450][791]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019C8AA39400), frame # 39791
+[2021.06.05-18.19.53:450][791]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C86341F80), frame # 39791
+[2021.06.05-18.19.53:474][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.06.05-18.19.53:490][791]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.05-18.19.53:490][791]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.066ms to complete.
+[2021.06.05-18.19.53:490][791]LogFileHelpers: Loading map 'VRHelloWorld' took 0.130
+[2021.06.05-18.19.56:846][147]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.05-18.20.05:079][ 70]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.05-18.20.05:092][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.05-18.20.05:092][ 70]PIE: New page: PIE session: VRHelloWorld (Jun 5, 2021, 10:20:05 AM)
+[2021.06.05-18.20.05:117][ 70]LogPlayLevel: Creating play world package: /Game/Modules/HelloWorld/UEDPIE_0_VRHelloWorld
+[2021.06.05-18.20.05:118][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001265s)
+[2021.06.05-18.20.05:119][ 70]LogAIModule: Creating AISystem for world VRHelloWorld
+[2021.06.05-18.20.05:119][ 70]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CDA610C00), frame # 41070
+[2021.06.05-18.20.05:119][ 70]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019C8BDCC7C0), frame # 41070
+[2021.06.05-18.20.05:119][ 70]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2021.06.05-18.20.05:119][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Modules/HelloWorld/VRHelloWorld.VRHelloWorld to /Game/Modules/HelloWorld/UEDPIE_0_VRHelloWorld.VRHelloWorld (0.002178s)
+[2021.06.05-18.20.05:140][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.05-18.20.05:142][ 70]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.05-18.20.05:142][ 70]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.05-18.20.05:143][ 70]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.05-18.20.05:143][ 70]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.05-18.20.05:149][ 70]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.05-18.20.05:149][ 70]LogAudioMixer: Display: 1: FrontRight
+[2021.06.05-18.20.05:168][ 70]LogAudioMixer: Display: Using Audio Device SE32HY10 (NVIDIA High Definition Audio)
+[2021.06.05-18.20.05:168][ 70]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.05-18.20.05:168][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.05-18.20.05:168][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.05-18.20.05:168][ 70]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.05-18.20.05:178][ 70]LogInit: FAudioDevice initialized.
+[2021.06.05-18.20.05:186][ 70]LogLoad: Game class is 'MagicLeapSharedWorldGameMode'
+[2021.06.05-18.20.05:187][ 70]LogTemp: Bone cache synced: 0
+[2021.06.05-18.20.05:187][ 70]LogTemp: Bone cache synced: 20
+[2021.06.05-18.20.05:187][ 70]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.20.05:188][ 70]LogTemp: Bone cache synced: 0
+[2021.06.05-18.20.05:188][ 70]LogTemp: Bone cache synced: 20
+[2021.06.05-18.20.05:188][ 70]LogTemp: Updating cached MappedBoneAnimData
+[2021.06.05-18.20.05:188][ 70]LogWorld: Bringing World /Game/Modules/HelloWorld/UEDPIE_0_VRHelloWorld.VRHelloWorld up for play (max tick rate 0) at 2021.06.05-14.20.05
+[2021.06.05-18.20.05:188][ 70]LogWorld: Bringing up level for play took: 0.001189
+[2021.06.05-18.20.05:188][ 70]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.06.05-18.20.05:189][ 70]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.06.05-18.20.05:189][ 70]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.06.05-18.20.05:189][ 70]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.06.05-18.20.05:190][ 70]LogBlueprintUserMessages: [LeapHandsPawn_72] Adjusting Origin for None
+[2021.06.05-18.20.05:190][ 70]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.06.05-18.20.05:190][ 70]PIE: Server logged in
+[2021.06.05-18.20.05:190][ 70]PIE: Play in editor total start time 0.103 seconds.

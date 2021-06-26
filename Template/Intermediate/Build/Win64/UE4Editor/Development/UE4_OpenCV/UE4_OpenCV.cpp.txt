@@ -1,0 +1,2 @@
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Source\UE4_OpenCV\UE4_OpenCV.h

@@ -1,0 +1,13 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Source\\UE4_OpenCV\\UE4_OpenCV.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Plugins\\LeapUnreal\\Source\\BodyState\\BodyState.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Plugins\\LeapUnreal\\Source\\LeapMotion\\LeapMotion.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Plugins\\LeapUnreal\\Source\\LeapMotionEditor\\LeapMotionEditor.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Plugins\\LeapUnreal\\Source\\LeapUnreal\\LeapUnreal.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Plugins\\LeapUnreal\\Source\\ThirdParty\\LeapUnrealLibrary\\LeapUnrealLibrary.Build.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Source\\UE4_OpenCV.Target.cs",
+		"C:\\Users\\Migz\\Downloads\\senior_design_backup-main\\senior_design_backup-main\\Template\\Source\\UE4_OpenCVEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.0"
+}

@@ -1,0 +1,65 @@
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Source\UE4_OpenCV\OpenCV_Reader.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/cvdef.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/hal/interface.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2\core\cv_cpu_dispatch.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\array
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/version.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/base.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/opencv_modules.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/cvstd.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\string
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2\core\cvstd_wrapper.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/neon_utils.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/vsx_utils.hpp
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/check.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/base.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/traits.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/matx.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/saturate.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/fast_math.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/types.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/mat.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/bufferpool.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/mat.inl.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/persistence.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/operations.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/cvstd.inl.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\complex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\sstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ymath.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/utility.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\chrono
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\ratio
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\thread
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\math.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE\vcruntime_startup.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/optim.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/core/ovx.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/highgui.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/imgcodecs.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/videoio.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/imgproc/imgproc.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/imgproc.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/objdetect/objdetect.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/objdetect.hpp
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\ThirdParty\OpenCV\Includes\opencv2/objdetect/detection_based_tracker.hpp
+C:\UnrealEngine\Engine\Source\Runtime\MediaAssets\Public\MediaTexture.h
+C:\UnrealEngine\Engine\Source\Runtime\MediaUtils\Public\MediaSampleQueue.h
+C:\UnrealEngine\Engine\Source\Runtime\Media\Public\IMediaSamples.h
+C:\UnrealEngine\Engine\Source\Runtime\MediaUtils\Public\MediaSampleSink.h
+C:\UnrealEngine\Engine\Source\Runtime\MediaUtils\Public\MediaSampleSource.h
+C:\UnrealEngine\Engine\Source\Runtime\Media\Public\IMediaTextureSample.h
+C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MediaAssets\MediaTexture.generated.h
+C:\UnrealEngine\Engine\Source\Runtime/Engine/Classes/Engine/TextureRenderTarget2D.h
+C:\UnrealEngine\Engine\Source\Runtime\Engine\Classes\Engine/TextureRenderTarget.h
+C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget.generated.h
+C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureRenderTarget2D.generated.h
+C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Intermediate\Build\Win64\UE4Editor\Inc\UE4_OpenCV\OpenCV_Reader.generated.h

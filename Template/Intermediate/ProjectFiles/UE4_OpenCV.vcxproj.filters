@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UE4_OpenCV.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{7C5C9142-FAED-42BC-94FA-58DFA71A5622}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UE4_OpenCV.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UE4_OpenCVEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\haarcascade_eye_tree_eyeglasses.xml" />
+    <None Include="..\..\haarcascade_frontalface_alt.xml" />
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{A45AA8F0-27ED-42C2-934C-9619477F8EFF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{4AB2DE4A-28CB-431F-8917-636282F568AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal">
+      <UniqueIdentifier>{A6F30A83-E143-4CD8-95BF-E18ADE5EC7B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source">
+      <UniqueIdentifier>{A1F36F59-7A62-433D-B3DE-7B8F44F3940E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source\BodyState">
+      <UniqueIdentifier>{B4E6B5CE-4429-4A36-88C5-5D257D824F1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\BodyState\BodyState.Build.cs">
+      <Filter>Plugins\LeapUnreal\Source\BodyState</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\BodyState\Private">
+      <UniqueIdentifier>{EB940E4D-4301-4F85-ADE3-18EE25F4DAA4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\AnimNode_ModifyBodyStateMappedBones.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateAnimInstance.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateBoneComponent.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateBPLibrary.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateDevice.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateDeviceConfig.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateEstimatorComponent.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDDevice.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDDevice.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDSnapshot.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSelectorComponent.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSkeletonStorage.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSkeletonStorage.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateUtility.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateUtility.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyState.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyState.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyStateInputDevice.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyStateInputDevice.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\BodyState\Private\Skeleton">
+      <UniqueIdentifier>{D4471D23-10A5-4745-9F1D-C0EFBB7CD724}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateArm.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateBone.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateSkeleton.cpp">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Private\Skeleton</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\LeapUnreal\Source\BodyState\Public">
+      <UniqueIdentifier>{AA631020-315A-42E0-81EA-449D4D1C1BED}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\AnimNode_ModifyBodyStateMappedBones.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateAnimInstance.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateBoneComponent.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateBPLibrary.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateDevice.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateDeviceConfig.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateEnums.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateEstimatorComponent.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateHMDSnapshot.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateInputInterface.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateSelectorComponent.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\IBodyState.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\BodyState\Public\Skeleton">
+      <UniqueIdentifier>{82C4D6B4-516F-48AE-81D3-C625F5C2BDB3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateArm.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateBone.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateSkeleton.h">
+      <Filter>Plugins\LeapUnreal\Source\BodyState\Public\Skeleton</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\LeapUnreal\LeapMotion.uplugin">
+      <Filter>Plugins\LeapUnreal</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Resources">
+      <UniqueIdentifier>{A5001C4E-22A2-48C7-9A11-A4066A1F9EA4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Resources\Icon128.png">
+      <Filter>Plugins\LeapUnreal\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\LeapUnreal\Resources\LeapOptions.PNG">
+      <Filter>Plugins\LeapUnreal\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\LeapUnreal\LeapUnreal.uplugin">
+      <Filter>Plugins\LeapUnreal</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotion">
+      <UniqueIdentifier>{C6369EFB-3D6F-4CD3-9098-D4CDBF676930}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\LeapMotion.Build.cs">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion</Filter>
+    </None>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\LeapMotion_APL.xml">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotion\Private">
+      <UniqueIdentifier>{7DAE2952-3175-457A-9289-1B4B75C6503D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionInputDevice.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionInputDevice.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionPlugin.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionPlugin.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapAsync.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapAsync.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapBlueprintFunctionLibrary.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapComponent.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapImage.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapImage.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapLiveLink.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapLiveLink.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapMotionData.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapUtility.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapUtility.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapWrapper.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapWrapper.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotion\Public">
+      <UniqueIdentifier>{8E19697A-7037-431A-8DE7-54268699FF90}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\ILeapMotionPlugin.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapBlueprintFunctionLibrary.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapComponent.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapMotionData.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotion\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotionEditor">
+      <UniqueIdentifier>{EF74E8BA-0360-46F3-882D-4A9CB98BCF7F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\LeapMotionEditor.Build.cs">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotionEditor</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotionEditor\Private">
+      <UniqueIdentifier>{DDD4BB2E-ED43-46C2-8C44-3EAFE88B9CAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Private\AnimGraphNode_ModifyBodyStateMappedBones.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotionEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Private\LeapMotionEditorModule.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotionEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapMotionEditor\Public">
+      <UniqueIdentifier>{177BD54D-E9EC-4499-B840-58A687F6D196}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Public\AnimGraphNode_ModifyBodyStateMappedBones.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotionEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Public\LeapMotionEditorModule.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapMotionEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapUnreal">
+      <UniqueIdentifier>{ED93EF9A-BB05-4A46-BC35-0B66C5729B83}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\LeapUnreal.Build.cs">
+      <Filter>Plugins\LeapUnreal\Source\LeapUnreal</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapUnreal\Private">
+      <UniqueIdentifier>{CCFCB12C-E57B-4AB3-AF83-5DF4495747EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\Private\LeapUnreal.cpp">
+      <Filter>Plugins\LeapUnreal\Source\LeapUnreal\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\LeapUnreal\Source\LeapUnreal\Public">
+      <UniqueIdentifier>{67198389-7A7D-400F-AC18-6D7AF0720EC0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\Public\LeapUnreal.h">
+      <Filter>Plugins\LeapUnreal\Source\LeapUnreal\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty">
+      <UniqueIdentifier>{67DB6926-9D62-4BC9-9A7D-B3A4C6BB668E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary">
+      <UniqueIdentifier>{89685EC8-1B1B-496F-9CC8-2602DFD19275}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.cpp">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.h">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\LeapUnrealLibrary.Build.cs">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary</Filter>
+    </None>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\LeapUnrealLibrary.tps">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary">
+      <UniqueIdentifier>{A730970E-D597-4C46-96C7-6A2F5AA96B7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary\ExampleLibrary.xcodeproj">
+      <UniqueIdentifier>{0474B093-CFC2-4075-95C7-19404B001CC0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary\ExampleLibrary.xcodeproj\project.pbxproj">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary\ExampleLibrary.xcodeproj</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.xcworkspace">
+      <UniqueIdentifier>{ED6985A5-FFE4-44F9-97A2-C259150C806D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.xcworkspace\contents.xcworkspacedata">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.xcworkspace</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\Mac">
+      <UniqueIdentifier>{4DC4B88A-94AC-46B1-A3A1-8CEC812C21B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\Mac\Release">
+      <UniqueIdentifier>{63188915-AB35-454A-91B2-BA06FA157EF3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\Mac\Release\libExampleLibrary.dylib">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\Mac\Release</Filter>
+    </None>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64">
+      <UniqueIdentifier>{CC7DD0D5-C1A2-4246-AFE0-B8BF67C96831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release">
+      <UniqueIdentifier>{614BA20B-2965-4EE2-A5B6-51BCBB7307F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release\ExampleLibrary.dll">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release\ExampleLibrary.lib">
+      <Filter>Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release</Filter>
+    </None>
+    <Filter Include="Source\UE4_OpenCV">
+      <UniqueIdentifier>{C8B2EB95-A33A-4183-A787-A1054AAC86FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\OpenCV_Reader.cpp">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\OpenCV_Reader.h">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.Build.cs">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.cpp">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.h">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\UE4_OpenCVGameModeBase.cpp">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\UE4_OpenCVGameModeBase.h">
+      <Filter>Source\UE4_OpenCV</Filter>
+    </ClInclude>
+    <Filter Include="Source\UE4_OpenCV\Private">
+      <UniqueIdentifier>{7322EE74-7673-4B51-A25E-1A89FA7A468A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\Private\DefaultSceneRoot.cpp">
+      <Filter>Source\UE4_OpenCV\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\UE4_OpenCV\Public">
+      <UniqueIdentifier>{8C6877CD-EC4B-4BDE-BFE0-566F0EBC14CF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\Public\DefaultSceneRoot.h">
+      <Filter>Source\UE4_OpenCV\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

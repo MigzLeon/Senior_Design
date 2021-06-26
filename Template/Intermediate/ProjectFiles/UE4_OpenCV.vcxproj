@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|Win32">
+      <Configuration>Invalid</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|Win32">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|Win32">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|x64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug|arm64">
+      <Configuration>Mac_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|arm64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug|Win32">
+      <Configuration>Android_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug|x64">
+      <Configuration>Android_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Debug|arm64">
+      <Configuration>Android_Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|Win32">
+      <Configuration>DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|Win32">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|x64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame|arm64">
+      <Configuration>Mac_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|arm64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame|Win32">
+      <Configuration>Android_DebugGame</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame|x64">
+      <Configuration>Android_DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_DebugGame|arm64">
+      <Configuration>Android_DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|Win32">
+      <Configuration>Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64">
+      <Configuration>Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|Win32">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|x64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development|arm64">
+      <Configuration>Mac_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|Win32">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|arm64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development|Win32">
+      <Configuration>Android_Development</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development|x64">
+      <Configuration>Android_Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Development|arm64">
+      <Configuration>Android_Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|Win32">
+      <Configuration>Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|Win32">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|x64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping|arm64">
+      <Configuration>Mac_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping|Win32">
+      <Configuration>Android_Shipping</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping|x64">
+      <Configuration>Android_Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Shipping|arm64">
+      <Configuration>Android_Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|Win32">
+      <Configuration>Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64">
+      <Configuration>Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|Win32">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|x64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test|arm64">
+      <Configuration>Mac_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test|Win32">
+      <Configuration>Android_Test</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test|x64">
+      <Configuration>Android_Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Android_Test|arm64">
+      <Configuration>Android_Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44E94906-4DE5-4785-92A5-2A2F3DEB4D69}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UE4_OpenCV</RootNamespace>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="MLProject" />
+    <PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|Win32'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>C:\UnrealEngine\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win32 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win32 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win32 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UE4_OpenCV-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win64 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win64 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win64 Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UE4_OpenCV-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Win64 Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Win64 Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Win64 Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV HoloLens Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV HoloLens Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV HoloLens Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UE4_OpenCV-HoloLens-Debug.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\UE4_OpenCV.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Mac Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Mac Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Mac Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UE4_OpenCV-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Mac Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Mac Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Mac Debug -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Debug|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Android Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Android Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Android Debug -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\UE4_OpenCV-Android-Debug.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win32 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win32 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win32 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UE4_OpenCV-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win64 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win64 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win64 DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UE4_OpenCV-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Win64 DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Win64 DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Win64 DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV HoloLens DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV HoloLens DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV HoloLens DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UE4_OpenCV-HoloLens-DebugGame.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\UE4_OpenCV.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Mac DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Mac DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Mac DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UE4_OpenCV-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Mac DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Mac DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Mac DebugGame -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Android DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Android DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Android DebugGame -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\UE4_OpenCV-Android-DebugGame.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win32 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win32 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win32 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UE4_OpenCV.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win64 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win64 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win64 Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UE4_OpenCV.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Win64 Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Win64 Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Win64 Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV HoloLens Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV HoloLens Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV HoloLens Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UE4_OpenCV.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\UE4_OpenCV.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Mac Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Mac Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Mac Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UE4_OpenCV</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat -Target="UE4_OpenCVEditor Mac Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat -Target="UE4_OpenCVEditor Mac Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat -Target="UE4_OpenCVEditor Mac Development -Project=\"$(SolutionDir)UE4_OpenCV.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Android Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Android Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Android Development -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\UE4_OpenCV.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win32 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win32 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win32 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UE4_OpenCV-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win64 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win64 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win64 Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UE4_OpenCV-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV HoloLens Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV HoloLens Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV HoloLens Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UE4_OpenCV-HoloLens-Shipping.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\UE4_OpenCV.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Mac Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Mac Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Mac Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UE4_OpenCV-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Android Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Android Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Android Shipping -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\UE4_OpenCV-Android-Shipping.so</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win32 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win32 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win32 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\UE4_OpenCV-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Win64 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Win64 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Win64 Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\UE4_OpenCV-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV HoloLens Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV HoloLens Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV HoloLens Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\UE4_OpenCV-HoloLens-Test.exe</NMakeOutput>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>C:\Users\Migz\Downloads\senior_design_backup-main\senior_design_backup-main\Template\Binaries\HoloLens\UE4_OpenCV.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Mac Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Mac Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Mac Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\UE4_OpenCV-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Test|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UE4_OpenCV Android Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UE4_OpenCV Android Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UE4_OpenCV Android Test -Project="$(SolutionDir)UE4_OpenCV.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Android\UE4_OpenCV-Android-Test.so</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);C:\UnrealEngine\Engine\Source;C:\UnrealEngine\Engine\Source\Runtime;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;C:\UnrealEngine\Engine\Source\Runtime\TraceLog\Public;C:\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\UnrealEngine\Engine\Source\Runtime\Engine\Classes;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCore;C:\UnrealEngine\Engine\Source\Runtime\Net;C:\UnrealEngine\Engine\Source\Runtime\Net\Core\Classes;C:\UnrealEngine\Engine\Source\Runtime\Net\Core\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;C:\UnrealEngine\Engine\Source\Runtime\ApplicationCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;C:\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;C:\UnrealEngine\Engine\Source\Runtime\MessagingCommon\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnalyticsET;C:\UnrealEngine\Engine\Source\Runtime\Analytics;C:\UnrealEngine\Engine\Source\Runtime\Analytics\AnalyticsET\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Analytics;C:\UnrealEngine\Engine\Source\Runtime\Analytics\Analytics\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;C:\UnrealEngine\Engine\Source\Runtime\Sockets\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;C:\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\UnrealEngine\Engine\Source\Runtime\SynthBenchmark\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\UnrealEngine\Engine\Source\Runtime\Renderer\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\UnrealEngine\Engine\Source\Runtime\GameplayTags\Classes;C:\UnrealEngine\Engine\Source\Runtime\GameplayTags\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;C:\UnrealEngine\Engine\Source\Runtime\AudioPlatformConfiguration\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;C:\UnrealEngine\Engine\Source\Runtime\MeshDescription\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription;C:\UnrealEngine\Engine\Source\Runtime\StaticMeshDescription\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;C:\UnrealEngine\Engine\Source\Runtime\PakFile\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;C:\UnrealEngine\Engine\Source\Runtime\RSA\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;C:\UnrealEngine\Engine\Source\Runtime\NetworkReplayStreaming;C:\UnrealEngine\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;C:\UnrealEngine\Engine\Source\Runtime\PhysicsCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;C:\UnrealEngine\Engine\Source\Runtime\Experimental;C:\UnrealEngine\Engine\Source\Runtime\Experimental\Chaos\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;C:\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosCore\Public;C:\UnrealEngine\Engine\Source\ThirdParty;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;C:\UnrealEngine\Engine\Source\Runtime\Experimental\Voronoi\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemCore;C:\UnrealEngine\Engine\Source\Runtime\Experimental\FieldSystem\Source;C:\UnrealEngine\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SignalProcessing;C:\UnrealEngine\Engine\Source\Runtime\SignalProcessing\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions;C:\UnrealEngine\Engine\Source\Runtime\AudioExtensions\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerCore;C:\UnrealEngine\Engine\Source\Runtime\AudioMixerCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\UnrealEngine\Engine\Source\Editor;C:\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;C:\UnrealEngine\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\UnrealEngine\Engine\Source\Developer;C:\UnrealEngine\Engine\Source\Developer\DirectoryWatcher\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\UnrealEngine\Engine\Source\Editor\Documentation\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\UnrealEngine\Engine\Source\Developer\SourceControl\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;C:\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;C:\UnrealEngine\Engine\Source\Developer\GameplayDebugger\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Classes;C:\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;C:\UnrealEngine\Engine\Source\Editor\EditorSubsystem\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\UnrealEngine\Engine\Source\Runtime\Online;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\UnrealEngine\Engine\Source\Runtime\UnrealAudio\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;C:\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Classes;C:\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;C:\UnrealEngine\Engine\Source\Developer\AutomationController\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;C:\UnrealEngine\Engine\Source\Developer\Localization\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;C:\UnrealEngine\Engine\Source\Editor\AudioEditor\Classes;C:\UnrealEngine\Engine\Source\Editor\AudioEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;C:\UnrealEngine\Engine\Source\Runtime\AudioMixer\Classes;C:\UnrealEngine\Engine\Source\Runtime\AudioMixer\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;C:\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\UnrealEngine\Engine\Source\Editor\LevelEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\UnrealEngine\Engine\Source\Developer\Settings\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\UnrealEngine\Engine\Source\Editor\IntroTutorials\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;C:\UnrealEngine\Engine\Source\Runtime\HeadMountedDisplay\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;C:\UnrealEngine\Engine\Source\Editor\VREditor;C:\UnrealEngine\Engine\Source\Editor\VREditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;C:\UnrealEngine\Engine\Source\Editor\CommonMenuExtensions\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;C:\UnrealEngine\Engine\Source\Runtime\Landscape\Classes;C:\UnrealEngine\Engine\Source\Runtime\Landscape\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;C:\UnrealEngine\Engine\Source\Editor\PropertyEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;C:\UnrealEngine\Engine\Source\Editor\ActorPickerMode\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;C:\UnrealEngine\Engine\Source\Editor\SceneDepthPickerMode\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;C:\UnrealEngine\Engine\Source\Editor\DetailCustomizations\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;C:\UnrealEngine\Engine\Source\Editor\ClassViewer\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\UnrealEngine\Engine\Source\Editor\GraphEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;C:\UnrealEngine\Engine\Source\Editor\StructViewer\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;C:\UnrealEngine\Engine\Source\Editor\ContentBrowser\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;C:\UnrealEngine\Engine\Source\ThirdParty\libSampleRate\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;C:\UnrealEngine\Engine\Source\Runtime\NetworkFileSystem\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;C:\UnrealEngine\Engine\Source\Runtime\UMG\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;C:\UnrealEngine\Engine\Source\Runtime\MovieScene\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;C:\UnrealEngine\Engine\Source\Runtime\TimeManagement\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;C:\UnrealEngine\Engine\Source\Runtime\MovieSceneTracks\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;C:\UnrealEngine\Engine\Source\Runtime\AnimationCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;C:\UnrealEngine\Engine\Source\Runtime\PropertyPath\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;C:\UnrealEngine\Engine\Source\Runtime\NavigationSystem\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;C:\UnrealEngine\Engine\Source\Developer\MeshBuilder\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;C:\UnrealEngine\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InteractiveToolsFramework;C:\UnrealEngine\Engine\Source\Runtime\Experimental\InteractiveToolsFramework\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenusEditor;C:\UnrealEngine\Engine\Source\Editor\ToolMenusEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\UnrealEngine\Engine\Source\Runtime\Windows;C:\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTagsEditor;C:\UnrealEngine\Engine\Source\Editor\AssetTagsEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;C:\UnrealEngine\Engine\Source\Editor\AddContentDialog\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;C:\UnrealEngine\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;C:\UnrealEngine\Engine\Source\Developer\MeshUtilities\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;C:\UnrealEngine\Engine\Source\Developer\MeshMergeUtilities\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;C:\UnrealEngine\Engine\Source\Developer\HierarchicalLODUtilities\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;C:\UnrealEngine\Engine\Source\Developer\MeshReductionInterface\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;C:\UnrealEngine\Engine\Source\Developer\AssetTools\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;C:\UnrealEngine\Engine\Source\Editor\KismetCompiler\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;C:\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Classes;C:\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\UnrealEngine\Engine\Source\Runtime\AIModule\Public;C:\UnrealEngine\Engine\Source\Runtime\AIModule\Classes;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\UnrealEngine\Engine\Source\Editor\Kismet\Classes;C:\UnrealEngine\Engine\Source\Editor\Kismet\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsSQ;C:\UnrealEngine\Engine\Source\Runtime\PhysicsSQ\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers;C:\UnrealEngine\Engine\Source\Runtime\Experimental\ChaosSolvers\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore;C:\UnrealEngine\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore;C:\UnrealEngine\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;C:\UnrealEngine\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;..\..\Plugins\LeapUnreal\Source;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputDevice;C:\UnrealEngine\Engine\Source\Runtime\InputDevice\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality;C:\UnrealEngine\Engine\Source\Runtime\AugmentedReality\Public;..\..\Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Inc\BodyState;..\..\Plugins\LeapUnreal\Source\BodyState\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimGraphRuntime;C:\UnrealEngine\Engine\Source\Runtime\AnimGraphRuntime\Public;..\..\Plugins\LeapUnreal\Source\BodyState\Private;..\..\Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Inc\LeapMotion;..\..\Plugins\LeapUnreal\Source\LeapMotion\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkInterface;C:\UnrealEngine\Engine\Source\Runtime\LiveLinkInterface\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LiveLinkMessageBusFramework;C:\UnrealEngine\Engine\Source\Runtime\LiveLinkMessageBusFramework\Public;..\..\Plugins\LeapUnreal\Source\LeapMotion\Private;..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapSDK\Include;..\..\Source\UE4_OpenCV\Private;..\Build\Win64\UE4Editor\Inc\UE4_OpenCV;..\..\Source;..\..\ThirdParty\OpenCV\Includes;..\..\Source\UE4_OpenCV\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Media;C:\UnrealEngine\Engine\Source\Runtime\Media\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MediaAssets;C:\UnrealEngine\Engine\Source\Runtime\MediaAssets\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MediaUtils;C:\UnrealEngine\Engine\Source\Runtime\MediaUtils\Public;..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Private;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimGraph;C:\UnrealEngine\Engine\Source\Editor\AnimGraph\Classes;C:\UnrealEngine\Engine\Source\Editor\AnimGraph\Public;..\..\Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Inc\LeapMotionEditor;..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Public;..\..\Plugins\LeapUnreal\Source\LeapUnreal\Private;..\..\Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Inc\LeapUnreal;..\..\Plugins\LeapUnreal\Source\LeapUnreal\Public;..\..\Plugins\LeapUnreal\Source\ThirdParty;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++14</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\UE4_OpenCV.uproject"/>
+    <None Include="..\..\Source\UE4_OpenCV.Target.cs"/>
+    <None Include="..\..\Source\UE4_OpenCVEditor.Target.cs"/>
+    <None Include="..\..\haarcascade_eye_tree_eyeglasses.xml"/>
+    <None Include="..\..\haarcascade_frontalface_alt.xml"/>
+    <None Include="..\..\README.md"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\BodyState\BodyState.Build.cs"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\AnimNode_ModifyBodyStateMappedBones.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateAnimInstance.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateBoneComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateBPLibrary.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateDevice.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateDeviceConfig.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateEstimatorComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDDevice.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDDevice.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateHMDSnapshot.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSelectorComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSkeletonStorage.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateSkeletonStorage.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\BodyStateUtility.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyState.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyState.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyStateInputDevice.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\FBodyStateInputDevice.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateArm.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateBone.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\BodyState\Private\Skeleton\BodyStateSkeleton.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\BodyState\Definitions.BodyState.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\AnimNode_ModifyBodyStateMappedBones.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateAnimInstance.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateBoneComponent.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateBPLibrary.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateDevice.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateDeviceConfig.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateEnums.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateEstimatorComponent.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateHMDSnapshot.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateInputInterface.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\BodyStateSelectorComponent.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\IBodyState.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateArm.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateBone.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\BodyState\Public\Skeleton\BodyStateSkeleton.h"/>
+    <None Include="..\..\Plugins\LeapUnreal\LeapMotion.uplugin"/>
+    <None Include="..\..\Plugins\LeapUnreal\Resources\Icon128.png"/>
+    <None Include="..\..\Plugins\LeapUnreal\Resources\LeapOptions.PNG"/>
+    <None Include="..\..\Plugins\LeapUnreal\LeapUnreal.uplugin"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\LeapMotion.Build.cs"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\LeapMotion_APL.xml"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionInputDevice.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionInputDevice.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionPlugin.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\FLeapMotionPlugin.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapAsync.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapAsync.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapBlueprintFunctionLibrary.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapImage.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapImage.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapLiveLink.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapLiveLink.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapMotionData.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapUtility.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapUtility.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapWrapper.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotion\Definitions.LeapMotion.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Private\LeapWrapper.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\ILeapMotionPlugin.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapBlueprintFunctionLibrary.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapComponent.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotion\Public\LeapMotionData.h"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\LeapMotionEditor.Build.cs"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Private\AnimGraphNode_ModifyBodyStateMappedBones.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotionEditor\Definitions.LeapMotionEditor.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Private\LeapMotionEditorModule.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapMotionEditor\Definitions.LeapMotionEditor.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Public\AnimGraphNode_ModifyBodyStateMappedBones.h"/>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapMotionEditor\Public\LeapMotionEditorModule.h"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\LeapUnreal.Build.cs"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\Private\LeapUnreal.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Plugins\LeapUnreal\Intermediate\Build\Win64\UE4Editor\Development\LeapUnreal\Definitions.LeapUnreal.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\SharedPCH.Core.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\LeapUnreal\Public\LeapUnreal.h"/>
+    <ClCompile Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.h"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\LeapUnrealLibrary.Build.cs"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\LeapUnrealLibrary.tps"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary\ExampleLibrary.xcodeproj\project.pbxproj"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\ExampleLibrary.xcworkspace\contents.xcworkspacedata"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\Mac\Release\libExampleLibrary.dylib"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release\ExampleLibrary.dll"/>
+    <None Include="..\..\Plugins\LeapUnreal\Source\ThirdParty\LeapUnrealLibrary\x64\Release\ExampleLibrary.lib"/>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\OpenCV_Reader.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\OpenCV_Reader.h"/>
+    <None Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.Build.cs"/>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\UE4_OpenCV.h"/>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\UE4_OpenCVGameModeBase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\UE4_OpenCVGameModeBase.h"/>
+    <ClCompile Include="..\..\Source\UE4_OpenCV\Private\DefaultSceneRoot.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;C:\UnrealEngine\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\UE4_OpenCV\Definitions.UE4_OpenCV.h;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE4_OpenCV\Public\DefaultSceneRoot.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2079 @@
+﻿Log file open, 06/26/21 15:53:17
+LogInit: Display: Running engine for game: UE4_OpenCV
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.100021
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LeapUnreal
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25Plus-CL-0
+LogInit: Engine Version: 4.25.0-0+++UE4+Release-4.25Plus
+LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25Plus
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Jun 13 2021 18:12:17
+LogInit: Compiled with Visual C++: 19.28.29914.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25Plus
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:816][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:820][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.26-19.53.18:820][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.26-19.53.18:821][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.26-19.53.18:821][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.26-19.53.18:821][  0]LogHAL: Display: Platform has ~ 32 GB [34269143040 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.26-19.53.18:821][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.26-19.53.18:821][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.26-19.53.18:822][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.26-19.53.18:823][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.26-19.53.18:823][  0]LogInit: Computer: KYUBI
+[2021.06.26-19.53.18:823][  0]LogInit: User: Migz
+[2021.06.26-19.53.18:823][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.06.26-19.53.18:823][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.26-19.53.18:823][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2021.06.26-19.53.18:823][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.26-19.53.18:823][  0]LogMemory: Process Physical Memory: 110.75 MB used, 110.75 MB peak
+[2021.06.26-19.53.18:823][  0]LogMemory: Process Virtual Memory: 96.16 MB used, 96.16 MB peak
+[2021.06.26-19.53.18:823][  0]LogMemory: Physical Memory: 12412.12 MB used,  20269.48 MB free, 32681.60 MB total
+[2021.06.26-19.53.18:823][  0]LogMemory: Virtual Memory: 5217.86 MB used,  134212512.00 MB free, 134217728.00 MB total
+[2021.06.26-19.53.18:830][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.26-19.53.18:904][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.26-19.53.18:910][  0]LogInit: Using OS detected language (en-US).
+[2021.06.26-19.53.18:910][  0]LogInit: Using OS detected locale (en-US).
+[2021.06.26-19.53.18:915][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.06.26-19.53.19:058][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.26-19.53.19:104][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.26-19.53.19:104][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.26-19.53.19:252][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.26-19.53.19:252][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.26-19.53.19:253][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.26-19.53.19:364][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2021.06.26-19.53.19:364][  0]LogD3D11RHI:       11048/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.06.26-19.53.19:367][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.26-19.53.19:367][  0]LogD3D11RHI:       0/0/16340 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.26-19.53.19:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.26-19.53.19:374][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.26-19.53.19:374][  0]LogD3D11RHI:     GPU DeviceId: 0x1e07 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.26-19.53.19:374][  0]LogWindows: EnumDisplayDevices:
+[2021.06.26-19.53.19:374][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:1)
+[2021.06.26-19.53.19:375][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2021.06.26-19.53.19:375][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2021.06.26-19.53.19:375][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2021.06.26-19.53.19:376][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.06.26-19.53.19:376][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2021.06.26-19.53.19:376][  0]LogD3D11RHI:   Driver Version: 466.77 (internal:27.21.14.6677, unified:466.77)
+[2021.06.26-19.53.19:376][  0]LogD3D11RHI:      Driver Date: 6-8-2021
+[2021.06.26-19.53.19:376][  0]LogRHI: Texture pool is 7733 MB (70% of 11048 MB)
+[2021.06.26-19.53.19:456][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.26-19.53.19:456][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.26-19.53.19:456][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.26-19.53.19:482][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.26-19.53.19:732][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.26-19.53.19:752][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.26-19.53.19:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.26-19.53.19:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.26-19.53.19:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.26-19.53.19:798][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.26-19.53.19:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.26-19.53.19:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.26-19.53.19:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.26-19.53.19:831][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.26-19.53.19:840][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.26-19.53.19:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.26-19.53.19:848][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.26-19.53.19:859][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.26-19.53.19:931][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Intermediate/Shaders/WorkingDirectory/24120/).
+[2021.06.26-19.53.19:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Migz/AppData/Local/Temp/UnrealShaderWorkingDir/DD1174934E71887C059AB481AFEA8A2B/'.
+[2021.06.26-19.53.19:931][  0]LogXGEController: Cleaning working directory: C:/Users/Migz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.06.26-19.53.19:932][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.06.26-19.53.19:932][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.26-19.53.19:932][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.26-19.53.20:522][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.26-19.53.20:565][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB ../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/DerivedDataCache/Boot.ddc.
+[2021.06.26-19.53.20:566][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/DerivedDataCache/Boot.ddc
+[2021.06.26-19.53.20:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.26-19.53.20:566][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.26-19.53.20:566][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.26-19.53.20:566][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.06.26-19.53.20:568][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.06.26-19.53.20:568][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.26-19.53.20:568][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.26-19.53.20:606][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.26-19.53.20:607][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.26-19.53.20:666][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2021.06.26-19.53.20:851][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.26-19.53.20:971][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.26-19.53.20:971][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.26-19.53.20:971][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.26-19.53.20:971][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.26-19.53.20:971][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.26-19.53.20:987][  0]LogNetVersion: UE4_OpenCV 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2496651142)
+[2021.06.26-19.53.22:012][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002E07B7AD780), frame # 0
+[2021.06.26-19.53.22:012][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E00265C900), frame # 0
+[2021.06.26-19.53.22:013][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E07B83EC00), frame # 0
+[2021.06.26-19.53.22:077][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.060153 seconds
+[2021.06.26-19.53.22:081][  0]LogUObjectArray: 15801 objects as part of root set at end of initial load.
+[2021.06.26-19.53.22:081][  0]LogUObjectAllocator: 3934656 out of 0 bytes used by permanent object pool.
+[2021.06.26-19.53.22:081][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.26-19.53.22:455][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.26-19.53.22:460][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.26-19.53.22:551][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.22:551][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.22:554][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.22:558][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.22:567][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.22:765][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2021.06.26-19.53.22:765][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2021.06.26-19.53.22:765][  0]LeapMotionLog: Leap Plugin started v3.6
+[2021.06.26-19.53.22:876][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.26-19.53.22:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.26-19.53.22:904][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.26-19.53.22:955][  0]LogOcInput: OculusInput pre-init called
+[2021.06.26-19.53.25:094][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.26-19.53.25:097][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.26-19.53.25:134][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.26-19.53.25:134][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.26-19.53.25:134][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.26-19.53.25:135][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2021.06.26-19.53.25:135][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.26-19.53.25:135][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.26-19.53.25:135][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.26-19.53.25:135][  0]LogEngine: Initializing Engine...
+[2021.06.26-19.53.25:136][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.26-19.53.25:136][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.26-19.53.25:230][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.26-19.53.25:238][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.26-19.53.25:238][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E004420800), frame # 0
+[2021.06.26-19.53.25:238][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E0043DBB00), frame # 0
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.26-19.53.25:253][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.26-19.53.25:253][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.26-19.53.25:253][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.26-19.53.25:273][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.26-19.53.25:273][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.26-19.53.25:340][  0]LogAudioMixer: Display: Using Audio Device SE32HY10 (NVIDIA High Definition Audio)
+[2021.06.26-19.53.25:342][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.26-19.53.25:345][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.26-19.53.25:345][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.26-19.53.25:345][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.26-19.53.25:345][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.26-19.53.25:345][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.26-19.53.25:346][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.26-19.53.25:347][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.26-19.53.25:347][  0]LogInit: FAudioDevice initialized.
+[2021.06.26-19.53.25:347][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.26-19.53.25:423][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB ../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/DerivedDataCache/Boot.ddc.
+[2021.06.26-19.53.25:425][  0]LogInit: Texture streaming: Enabled
+[2021.06.26-19.53.25:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.26-19.53.25:448][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B6207A41-46E6-BE13-333C-70BAD3355400}
+[2021.06.26-19.53.25:448][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.26-19.53.25:458][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.26-19.53.25:543][  0]LogInit: Transaction tracking system initialized
+[2021.06.26-19.53.25:567][  0]BlueprintLog: New page: Editor Load
+[2021.06.26-19.53.25:640][  0]LocalizationService: Localization service is disabled
+[2021.06.26-19.53.25:798][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.06.26-19.53.25:798][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.26-19.53.26:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/' took 0.11s
+[2021.06.26-19.53.26:057][  0]SourceControl: Source control is disabled
+[2021.06.26-19.53.26:057][  0]LogUnrealEdMisc: Loading editor; pre map load, took 10.313
+[2021.06.26-19.53.26:057][  0]LogEditorServer: Warning: Can't find file '../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/Maps-Levels/Maps/AnimatedLoadingPers.umap'
+[2021.06.26-19.53.26:057][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.26-19.53.26:057][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.157ms to complete.
+[2021.06.26-19.53.26:057][  0]LogFileHelpers: Loading map 'AnimatedLoadingPers' took 0.000
+[2021.06.26-19.53.26:103][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.358
+[2021.06.26-19.53.26:250][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.26-19.53.26:255][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.26-19.53.26:261][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.26-19.53.26:266][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.26-19.53.26:291][  0]LogCollectionManager: Loaded 0 collections in 0.014209 seconds
+[2021.06.26-19.53.26:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/Collections/' took 0.00s
+[2021.06.26-19.53.26:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/Developers/Migz/Collections/' took 0.00s
+[2021.06.26-19.53.26:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/Collections/' took 0.00s
+[2021.06.26-19.53.26:305][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3435 classes and 823 folders.
+[2021.06.26-19.53.26:307][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.06.26-19.53.26:892][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2021.06.26-19.53.26:893][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2021.06.26-19.53.26:935][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.26-19.53.26:936][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.26-19.53.26:940][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.26-19.53.27:006][  0]LogRenderer: Reallocating scene render targets to support 752x256 Format 10 NumSamples 1 (Frame:1).
+[2021.06.26-19.53.27:080][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.06.26-19.53.27:080][  0]LogLoad: (Engine Initialization) Total time: 11.34 seconds
+[2021.06.26-19.53.27:080][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.26-19.53.27:107][  0]LeapMotionLog: ServiceMessageLoop started.
+[2021.06.26-19.53.27:107][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2021.06.26-19.53.27:107][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2021.06.26-19.53.27:139][  0]LogAssetRegistry: Asset discovery search completed in 6.4746 seconds
+[2021.06.26-19.53.27:143][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.06.26-19.53.27:144][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.26-19.53.27:166][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.26-19.53.28:116][111]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.26-19.53.31:661][475]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP
+[2021.06.26-19.53.31:877][475]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2021.06.26-19.53.32:622][475]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.26-19.53.33:255][539]LogAssetEditorSubsystem: Opening Asset editor for MediaPlayer /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer.OpenCVMediaPlayer
+[2021.06.26-19.53.33:278][539]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 17
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 15
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 13
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 11
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 9
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 7
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.06.26-19.53.33:344][539]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.26-19.53.37:225][939]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.26-19.54.27:329][767]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Crashed, SessionId={B6207A41-46E6-BE13-333C-70BAD3355400}
+[2021.06.26-19.55.44:134][542]BlueprintLog: New page: Compile PhysicsBallBP
+[2021.06.26-19.55.44:169][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.26-19.55.44:961][613]LogSavePackage: Moving '../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/PhysicsBallBP4020D28848D8ECD1924F33AB028EF307.tmp' to '../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2021.06.26-19.55.44:978][613]AssetCheck: New page: Asset Save: PhysicsBallBP
+[2021.06.26-19.55.44:978][613]LogContentValidation: Display: Validating Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP
+[2021.06.26-19.55.50:176][180]BlueprintLog: New page: Compile PhysicsBallBP
+[2021.06.26-19.55.50:206][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.06.26-19.55.50:372][193]BlueprintLog: New page: Compile PhysicsBallBP
+[2021.06.26-19.55.50:403][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.06.26-19.55.50:644][215]BlueprintLog: New page: Compile PhysicsBallBP
+[2021.06.26-19.55.50:676][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.06.26-19.55.51:275][261]LogSavePackage: Moving '../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Saved/PhysicsBallBP2A2E7EB84FE0DB7E426FCD8E2769CDB4.tmp' to '../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/RollingBP/Blueprints/PhysicsBallBP.uasset'
+[2021.06.26-19.55.51:287][261]AssetCheck: New page: Asset Save: PhysicsBallBP
+[2021.06.26-19.55.51:287][261]LogContentValidation: Display: Validating Blueprint /Game/RollingBP/Blueprints/PhysicsBallBP.PhysicsBallBP
+[2021.06.26-19.56.01:627][347]LogAssetEditorSubsystem: Opening Asset editor for World /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap
+[2021.06.26-19.56.01:645][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.06.26-19.56.01:646][347]Cmd: MAP LOAD FILE="../../../../Users/Migz/Downloads/senior_design_backup-main/senior_design_backup-main/Template/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.26-19.56.01:647][347]LightingResults: New page: Lighting Build
+[2021.06.26-19.56.01:649][347]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 6 classes and 0 folders.
+[2021.06.26-19.56.01:650][347]LoadErrors: New page: Loading map: RollingBPExampleMap.umap
+[2021.06.26-19.56.01:691][347]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.26-19.56.01:691][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.26-19.56.01:691][347]MapCheck: New page: Map Check
+[2021.06.26-19.56.01:691][347]LightingResults: New page: Lighting Build
+[2021.06.26-19.56.01:707][347]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002E004420800), frame # 17347
+[2021.06.26-19.56.01:707][347]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002E0043DBB00), frame # 17347
+[2021.06.26-19.56.01:708][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2021.06.26-19.56.01:712][347]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.26-19.56.01:712][347]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.26-19.56.01:712][347]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E03A2C5000), frame # 17347
+[2021.06.26-19.56.01:713][347]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E039393C40), frame # 17347
+[2021.06.26-19.56.01:731][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.06.26-19.56.01:752][347]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.26-19.56.01:753][347]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.988ms to complete.
+[2021.06.26-19.56.01:753][347]LogFileHelpers: Loading map 'RollingBPExampleMap' took 0.106
+[2021.06.26-19.56.05:773][736]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.26-19.56.05:789][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.26-19.56.05:789][736]PIE: New page: PIE session: RollingBPExampleMap (Jun 26, 2021, 11:56:05 AM)
+[2021.06.26-19.56.05:790][736]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.26-19.56.05:791][736]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.26-19.56.05:791][736]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.26-19.56.05:807][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015802s)
+[2021.06.26-19.56.05:808][736]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2021.06.26-19.56.05:808][736]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E033439600), frame # 17736
+[2021.06.26-19.56.05:808][736]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E033445800), frame # 17736
+[2021.06.26-19.56.05:809][736]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2021.06.26-19.56.05:809][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.017391s)
+[2021.06.26-19.56.05:846][736]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.26-19.56.05:849][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.26-19.56.05:849][736]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.26-19.56.05:849][736]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.26-19.56.05:858][736]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.26-19.56.05:858][736]LogAudioMixer: Display: 1: FrontRight
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Using Audio Device SE32HY10 (NVIDIA High Definition Audio)
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.26-19.56.05:884][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.26-19.56.05:884][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.26-19.56.05:893][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.26-19.56.05:893][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.26-19.56.05:893][736]LogInit: FAudioDevice initialized.
+[2021.06.26-19.56.05:902][736]LogLoad: Game class is 'RollingGameMode_C'
+[2021.06.26-19.56.05:905][736]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2021.06.26-15.56.05
+[2021.06.26-19.56.05:905][736]LogWorld: Bringing up level for play took: 0.001280
+[2021.06.26-19.56.05:905][736]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.06.26-19.56.05:911][736]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.06.26-19.56.05:917][736]LogScript: Warning: Attempted to access index 1 from array CallFunc_EnumerateVideoCaptureDevices_OutDevices of length 1!
+	MyOpenCV_Reader_C /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.MyOpenCV_Reader_2
+	Function /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader_C:ExecuteUbergraph_MyOpenCV_Reader:0237
+[2021.06.26-19.56.05:917][736]PIE: Error: Blueprint Runtime Error: "Attempted to access index 1 from array CallFunc_EnumerateVideoCaptureDevices_OutDevices of length 1!". Blueprint:  MyOpenCV_Reader Function:  Execute Ubergraph My Open CV Reader Graph:  EventGraph Node:  Open Url
+[2021.06.26-19.56.05:917][736]LogScript: Warning: Accessed None reading structure Url
+	MyOpenCV_Reader_C /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.MyOpenCV_Reader_2
+	Function /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader_C:ExecuteUbergraph_MyOpenCV_Reader:0237
+[2021.06.26-19.56.05:917][736]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure Url". Blueprint:  MyOpenCV_Reader Function:  Execute Ubergraph My Open CV Reader Graph:  EventGraph Node:  Open Url
+[2021.06.26-19.56.05:967][736]PIE: Server logged in
+[2021.06.26-19.56.05:967][736]PIE: Play in editor total start time 0.183 seconds.
+[2021.06.26-19.56.06:414][737]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.06:414][737]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.06:441][738]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.06:441][738]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.06:636][749]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.06:636][749]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.06:848][761]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.06:848][761]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.07:049][773]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.07:049][773]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.07:240][790]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.07:240][790]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.07:452][810]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.07:453][810]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.07:662][830]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.07:662][830]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.07:865][850]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.07:865][850]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.08:067][870]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.08:067][870]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.08:271][890]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.08:271][890]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.08:760][905]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.08:760][905]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.08:971][915]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.08:971][915]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.09:180][925]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.09:180][925]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.09:375][937]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.09:375][937]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.09:587][955]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.09:587][955]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.09:795][972]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.09:795][972]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.10:005][988]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.10:005][988]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.10:197][  3]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.10:198][  3]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.10:401][ 22]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.10:401][ 22]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.10:616][ 42]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.10:616][ 42]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.10:818][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.10:818][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.11:025][ 76]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.11:025][ 76]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.11:349][107]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.11:349][107]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.11:571][124]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.11:571][124]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.11:787][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.11:787][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.11:981][158]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.11:981][158]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.12:186][173]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.12:186][173]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.12:400][192]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.12:400][192]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.12:600][211]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.12:600][211]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.12:801][231]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.12:801][231]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:225][514]LogWmfMedia: Warning: H264 video type requires Windows 8 or newer (your version is 10.0.19043.1.256.64bit)
+[2021.06.26-19.56.15:257][515]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.15:257][515]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.15:456][534]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.15:456][534]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.15:659][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.15:659][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.17:939][807]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.17:939][807]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.18:171][822]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.18:171][822]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.18:369][839]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.18:369][839]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.18:570][856]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.18:570][856]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.18:771][873]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.18:771][873]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.19:066][903]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.19:066][903]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.19:270][919]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.19:270][919]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.19:566][924]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.19:566][924]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.20:485][927]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.56.20:485][927]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.20:561][928]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.56.20:561][928]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.20:752][931]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.56.20:752][931]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.20:956][934]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.888889
+[2021.06.26-19.56.20:957][934]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.21:218][938]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.56.21:218][938]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.21:419][941]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.56.21:419][941]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.21:687][945]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.56.21:687][945]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.21:923][949]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.37037
+[2021.06.26-19.56.21:923][949]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.22:169][953]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.56.22:169][953]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.22:403][956]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.56.22:404][956]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.22:634][959]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.407408
+[2021.06.26-19.56.22:634][959]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.22:874][962]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.259259
+[2021.06.26-19.56.22:874][962]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.23:110][965]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.481482
+[2021.06.26-19.56.23:110][965]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.23:325][968]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.56.23:325][968]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.23:536][971]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.925926
+[2021.06.26-19.56.23:536][971]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.23:739][974]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.23:739][974]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.23:943][977]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.23:943][977]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.24:164][980]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.24:164][980]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.24:396][983]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.56.24:396][983]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.24:630][986]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.24:630][986]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.24:861][989]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.24:861][989]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.25:087][992]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.25:087][992]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.25:286][995]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.25:286][995]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.25:530][999]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.25:530][999]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.25:781][  3]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.25:781][  3]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.25:988][  6]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.25:988][  6]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.26:193][  9]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.26:193][  9]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.26:397][ 12]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.26:397][ 12]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.26:638][ 16]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.26:638][ 16]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.26:882][ 20]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.56.26:882][ 20]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.27:143][ 24]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.27:143][ 24]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.27:396][ 28]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.27:396][ 28]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.27:648][ 32]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.27:648][ 32]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.27:909][ 36]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.56.27:909][ 36]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.28:164][ 40]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.28:164][ 40]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.28:411][ 44]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.28:411][ 44]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.28:667][ 48]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.28:667][ 48]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.28:931][ 52]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.56.28:931][ 52]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.29:185][ 56]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.29:185][ 56]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.29:446][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.29:446][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.29:709][ 64]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.29:709][ 64]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.29:982][ 68]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.29:982][ 68]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.30:185][ 71]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.56.30:185][ 71]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.30:386][ 74]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.30:386][ 74]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.30:650][ 78]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.30:650][ 78]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.30:855][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.30:855][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.31:117][ 85]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.31:117][ 85]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.31:382][ 89]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.56.31:382][ 89]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.31:659][ 93]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.31:659][ 93]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.31:862][ 96]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.31:862][ 96]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.32:062][ 99]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.32:062][ 99]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.32:328][103]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.32:328][103]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.32:534][106]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.32:534][106]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.32:737][109]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.32:737][109]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.33:001][113]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.33:001][113]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.33:259][117]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.33:259][117]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.33:514][121]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.33:515][121]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.33:763][125]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.33:764][125]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.34:016][129]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.34:016][129]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.34:278][133]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.34:278][133]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.34:531][137]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.34:531][137]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.34:783][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.56.34:784][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.35:044][145]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.35:044][145]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.35:296][149]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.35:296][149]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.35:550][153]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.35:550][153]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.35:796][157]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.35:796][157]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.36:054][161]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.56.36:054][161]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.36:314][165]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.36:314][165]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.36:570][169]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.36:570][169]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.36:831][173]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.36:831][173]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.37:090][177]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.37:090][177]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.37:339][181]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.37:339][181]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.37:593][185]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.37:593][185]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.37:848][189]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.37:848][189]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.38:095][193]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.38:095][193]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.38:340][197]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.38:340][197]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.38:592][201]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.38:593][201]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.38:839][205]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.38:839][205]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.39:077][209]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.39:077][209]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.39:328][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.56.39:328][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.39:579][217]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.39:579][217]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.39:825][221]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.39:825][221]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.40:077][225]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.40:077][225]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.40:321][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.40:322][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.40:573][233]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.40:574][233]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.40:817][237]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.40:817][237]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.41:065][241]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.41:065][241]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.41:315][245]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.41:315][245]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.41:557][249]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.41:557][249]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.41:793][253]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.41:793][253]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.42:030][257]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.42:030][257]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.42:268][261]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.42:268][261]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.42:509][265]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.42:509][265]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.42:747][269]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.42:747][269]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.42:994][273]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.42:994][273]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.43:231][277]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.56.43:231][277]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.43:462][281]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.56.43:462][281]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.43:665][285]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.43:665][285]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.43:908][289]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.43:909][289]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.44:152][293]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.44:152][293]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.44:395][297]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.56.44:395][297]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.44:630][301]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.44:631][301]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.44:868][305]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.740741
+[2021.06.26-19.56.44:868][305]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.45:107][309]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.45:107][309]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.45:339][313]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.45:339][313]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.45:582][317]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.45:582][317]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.45:831][321]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.56.45:831][321]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.46:079][325]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.46:079][325]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.46:310][329]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.56.46:310][329]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.46:542][333]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.46:542][333]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.46:774][337]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.46:774][337]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.47:023][341]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.47:023][341]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.47:267][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.47:267][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.47:506][349]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.56.47:506][349]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.47:755][353]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.47:755][353]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.47:940][357]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.47:940][357]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.48:219][364]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.48:219][364]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.48:460][368]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.48:460][368]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.48:698][372]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.56.48:698][372]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.48:947][376]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.48:947][376]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.49:190][380]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.56.49:190][380]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.49:431][384]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.56.49:431][384]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.49:675][388]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.49:675][388]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.49:924][392]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.56.49:924][392]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.50:161][396]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.50:161][396]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.50:392][400]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.50:393][400]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.50:632][404]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.50:633][404]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.50:871][408]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.50:871][408]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.51:115][412]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.51:115][412]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.51:355][416]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.56.51:355][416]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.51:600][420]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.56.51:600][420]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.51:869][424]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.56.51:870][424]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.52:093][427]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.56.52:093][427]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.52:318][430]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.56.52:318][430]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.52:538][433]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.56.52:538][433]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.52:790][437]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.52:790][437]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.53:058][441]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.53:059][441]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.53:322][445]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.53:322][445]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.53:573][449]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.53:573][449]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.53:844][453]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.53:844][453]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.54:109][457]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.54:109][457]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.54:323][460]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.54:323][460]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.54:534][463]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.56.54:534][463]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.54:736][466]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.56.54:736][466]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.54:951][469]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.56.54:951][469]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.55:157][472]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.56.55:157][472]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.55:377][475]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.56.55:377][475]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.55:603][478]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.56.55:603][478]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.55:825][481]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.56.55:825][481]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.56:049][484]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.56.56:049][484]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.56:286][487]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.56.56:286][487]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.56:512][490]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.074074
+[2021.06.26-19.56.56:512][490]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.56:737][493]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.740741
+[2021.06.26-19.56.56:737][493]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.56:965][496]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.56.56:965][496]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.57:199][499]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.56.57:199][499]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.57:414][502]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.56.57:414][502]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.57:633][505]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.555556
+[2021.06.26-19.56.57:633][505]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.57:864][508]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.56.57:864][508]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.58:084][511]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.074074
+[2021.06.26-19.56.58:084][511]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.58:304][514]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.56.58:304][514]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.58:530][517]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.56.58:530][517]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.58:755][520]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.56.58:755][520]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.58:987][523]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.56.58:987][523]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.59:222][526]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.888889
+[2021.06.26-19.56.59:222][526]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.59:453][529]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.56.59:453][529]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.59:674][532]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.56.59:674][532]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.56.59:909][535]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.56.59:909][535]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.00:159][538]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.00:159][538]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.00:378][541]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.00:378][541]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.00:606][544]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.00:606][544]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.00:826][547]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.00:826][547]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.01:045][550]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.01:045][550]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.01:268][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.01:268][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.01:482][556]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.01:482][556]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.01:703][559]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.01:703][559]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.01:913][562]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.01:913][562]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.02:136][565]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.02:136][565]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.02:364][568]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.02:364][568]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.02:577][571]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.407408
+[2021.06.26-19.57.02:577][571]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.02:794][574]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.02:795][574]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.03:005][577]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.57.03:005][577]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.03:224][580]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.555556
+[2021.06.26-19.57.03:224][580]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.03:476][584]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.03:476][584]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.03:699][587]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.03:699][587]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.03:917][590]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.57.03:917][590]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.04:128][593]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.04:128][593]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.04:339][596]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.04:339][596]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.04:550][599]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.57.04:550][599]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.04:755][602]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.04:756][602]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.04:964][605]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.57.04:964][605]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.05:187][608]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.05:187][608]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.05:415][611]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.05:415][611]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.05:646][614]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.05:646][614]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.05:861][617]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.05:861][617]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.06:067][620]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.06:067][620]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.06:316][624]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.06:316][624]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.06:560][628]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.06:561][628]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.06:798][632]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.06:798][632]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.07:026][636]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.07:026][636]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.07:254][640]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.07:254][640]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.07:492][644]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.07:492][644]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.07:720][648]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.259259
+[2021.06.26-19.57.07:720][648]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.07:964][652]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.407408
+[2021.06.26-19.57.07:964][652]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.08:204][656]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.407408
+[2021.06.26-19.57.08:205][656]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.08:451][660]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.407408
+[2021.06.26-19.57.08:451][660]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.08:693][664]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.08:693][664]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.08:937][668]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.08:937][668]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.09:181][672]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.09:181][672]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.09:418][676]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.09:418][676]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.09:649][680]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.09:649][680]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.09:889][684]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.09:889][684]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.10:129][688]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.10:129][688]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.10:375][692]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.555556
+[2021.06.26-19.57.10:375][692]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.10:613][696]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.333333
+[2021.06.26-19.57.10:613][696]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.10:843][700]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.10:843][700]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.11:082][704]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.11:082][704]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.11:314][708]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.11:314][708]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.11:612][712]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.11:612][712]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.11:842][716]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.11:842][716]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.12:076][720]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.12:076][720]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.12:294][724]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.12:295][724]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.12:527][728]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.12:527][728]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.12:756][732]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.12:757][732]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.12:985][736]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.57.12:986][736]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.13:251][741]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.13:251][741]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.13:486][745]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.13:486][745]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.13:730][749]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.13:730][749]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.13:969][753]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.13:969][753]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.14:198][757]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.14:198][757]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.14:402][761]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.14:402][761]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.14:655][766]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.57.14:655][766]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.14:866][770]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.14:866][770]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.15:076][774]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.15:076][774]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.15:334][779]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.15:334][779]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.15:543][787]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.15:544][787]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.15:751][794]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.15:751][794]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.15:954][802]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.15:954][802]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.16:163][810]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.16:163][810]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.16:374][818]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.16:374][818]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.16:585][826]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.16:585][826]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.16:790][834]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.16:790][834]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.17:000][842]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.17:000][842]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.17:200][850]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.17:200][850]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.17:410][858]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.17:411][858]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.17:620][866]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.17:620][866]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.17:832][874]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.17:832][874]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.18:044][882]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.18:044][882]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.18:251][890]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.18:252][890]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.18:471][898]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.18:471][898]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.18:714][906]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.18:714][906]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.18:924][914]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.18:924][914]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.19:151][920]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.19:151][920]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.19:359][928]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.19:359][928]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.19:578][935]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.19:578][935]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.19:784][943]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.19:785][943]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.19:990][951]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.19:990][951]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.20:191][959]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.20:191][959]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.20:402][967]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.20:402][967]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.20:618][975]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.20:618][975]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.20:857][983]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.20:857][983]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.21:077][988]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.21:077][988]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.21:279][992]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.21:279][992]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.21:506][996]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.21:506][996]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.21:711][  2]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.21:712][  2]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.21:965][  6]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.21:965][  6]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.22:222][ 10]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.22:222][ 10]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.22:470][ 14]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.22:470][ 14]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.22:680][ 18]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.22:680][ 18]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.22:881][ 22]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.57.22:881][ 22]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.23:087][ 30]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.57.23:087][ 30]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.23:306][ 38]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.57.23:306][ 38]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.23:564][ 45]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.57.23:564][ 45]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.23:735][ 50]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.57.23:735][ 50]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.23:948][ 57]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.57.23:948][ 57]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.24:229][ 62]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.57.24:229][ 62]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.24:406][ 66]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.24:406][ 66]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.24:630][ 73]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.24:630][ 73]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.24:835][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.24:835][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.25:043][ 89]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.25:043][ 89]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.25:264][ 97]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.25:264][ 97]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.25:468][105]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.25:468][105]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.25:671][112]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.25:671][112]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.25:907][120]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.25:907][120]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.26:132][128]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.26:133][128]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.26:357][136]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.26:357][136]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.26:598][144]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.26:598][144]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.26:807][152]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.26:807][152]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.27:011][160]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.27:012][160]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.27:235][168]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.27:235][168]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.27:450][176]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.27:450][176]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.27:658][183]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.27:658][183]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.27:878][191]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.27:878][191]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.28:092][199]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.28:092][199]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.28:298][205]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.28:298][205]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.28:526][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.28:526][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.28:735][221]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.28:735][221]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.28:952][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.28:952][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.29:164][237]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.29:164][237]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.29:377][245]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.29:377][245]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.29:654][251]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.29:654][251]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.29:889][255]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.29:889][255]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.30:132][259]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.57.30:132][259]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.30:393][263]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.57.30:393][263]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.30:600][266]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.57.30:600][266]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.30:853][270]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.30:853][270]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.31:098][274]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.31:098][274]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.31:347][278]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.31:347][278]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.31:613][282]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.31:613][282]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.31:832][285]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.31:833][285]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.32:052][288]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.32:052][288]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.32:273][291]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.32:273][291]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.32:491][294]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.32:491][294]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.32:710][297]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.32:710][297]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.32:928][300]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.111111
+[2021.06.26-19.57.32:928][300]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.33:144][303]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.57.33:144][303]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.33:373][306]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.57.33:373][306]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.33:585][309]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.57.33:585][309]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.33:799][312]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.33:799][312]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.34:008][315]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.34:008][315]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.34:229][318]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.57.34:229][318]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.34:442][321]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.57.34:442][321]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.34:664][324]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.57.34:664][324]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.34:882][327]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.57.34:882][327]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.35:098][330]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.35:098][330]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.35:313][333]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.111111
+[2021.06.26-19.57.35:314][333]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.35:537][336]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.37037
+[2021.06.26-19.57.35:537][336]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.35:745][339]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.37037
+[2021.06.26-19.57.35:745][339]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.35:959][342]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.740741
+[2021.06.26-19.57.35:959][342]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.36:169][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.36:169][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.36:374][348]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.36:374][348]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.36:584][351]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.36:584][351]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.36:790][354]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.962963
+[2021.06.26-19.57.36:790][354]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.37:003][357]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.37037
+[2021.06.26-19.57.37:003][357]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.37:224][360]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.37:224][360]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.37:437][363]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.37:437][363]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.37:656][366]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.37:656][366]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.37:868][369]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.37:868][369]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.38:089][372]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.38:089][372]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.38:310][375]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.407408
+[2021.06.26-19.57.38:310][375]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.38:517][378]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.518518
+[2021.06.26-19.57.38:517][378]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.38:725][381]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.38:725][381]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.38:947][384]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.38:947][384]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.39:161][387]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.57.39:161][387]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.39:367][390]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.39:367][390]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.39:581][393]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.39:581][393]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.39:793][396]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.39:793][396]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.40:002][399]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.57.40:002][399]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.40:218][402]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.40:218][402]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.40:421][405]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.40:421][405]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.40:631][408]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.40:632][408]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.40:859][411]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.444444
+[2021.06.26-19.57.40:859][411]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.41:071][414]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.57.41:071][414]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.41:301][417]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.41:301][417]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.41:517][420]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.41:517][420]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.41:737][423]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.41:737][423]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.41:976][426]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.41:976][426]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.42:207][429]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.888889
+[2021.06.26-19.57.42:207][429]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.42:416][432]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.57.42:416][432]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.42:619][435]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.57.42:619][435]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.42:819][438]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.42:819][438]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.43:084][442]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.962963
+[2021.06.26-19.57.43:084][442]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.43:283][445]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.777778
+[2021.06.26-19.57.43:283][445]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.43:534][449]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.43:534][449]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.43:793][453]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.43:794][453]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.44:055][457]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.44:055][457]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.44:311][461]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.44:311][461]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.44:547][465]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.57.44:547][465]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.44:790][469]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.44:791][469]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.45:045][473]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.57.45:045][473]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.45:295][477]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.45:295][477]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.45:548][481]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.57.45:548][481]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.45:806][485]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.57.45:807][485]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.46:069][489]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.46:069][489]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.46:322][493]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.57.46:322][493]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.46:573][497]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.57.46:573][497]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.46:826][501]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.46:826][501]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.47:078][505]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.47:078][505]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.47:333][509]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.57.47:334][509]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.47:591][513]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.57.47:591][513]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.47:853][517]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.57.47:854][517]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.48:118][521]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.57.48:118][521]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.48:377][525]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.57.48:378][525]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.48:628][529]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.48:628][529]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.48:873][533]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.57.48:873][533]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.49:117][537]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.49:117][537]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.49:370][541]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.57.49:370][541]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.49:615][545]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.57.49:615][545]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.49:857][549]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.49:857][549]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.50:097][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.50:097][553]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.50:350][557]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.50:351][557]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.50:600][561]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.57.50:600][561]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.50:836][565]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.50:836][565]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.51:077][569]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.51:077][569]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.51:311][573]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.51:311][573]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.51:561][577]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.51:561][577]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.51:815][581]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.57.51:815][581]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.52:023][584]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.62963
+[2021.06.26-19.57.52:023][584]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.52:271][588]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.57.52:272][588]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.52:512][592]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.57.52:512][592]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.52:754][596]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.57.52:754][596]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.53:003][600]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.57.53:003][600]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.53:253][604]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.57.53:254][604]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.53:503][608]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.57.53:504][608]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.53:733][612]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.57.53:733][612]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.53:968][616]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.57.53:968][616]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.54:214][620]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.296296
+[2021.06.26-19.57.54:214][620]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.54:449][624]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.57.54:449][624]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.54:687][628]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.57.54:687][628]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.54:933][632]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.57.54:933][632]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.55:195][636]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.57.55:195][636]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.55:454][640]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.57.55:454][640]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.55:655][643]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.55:655][643]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.55:907][647]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.888889
+[2021.06.26-19.57.55:907][647]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.56:164][651]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.57.56:164][651]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.56:410][655]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.56:411][655]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.56:673][659]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.57.56:673][659]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.56:924][663]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.740741
+[2021.06.26-19.57.56:924][663]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.57:179][667]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.57.57:179][667]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.57:439][671]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.57.57:439][671]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.57:643][674]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.57.57:643][674]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.57:885][678]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.57.57:885][678]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.58:141][682]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.57.58:141][682]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.58:393][686]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.57.58:393][686]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.58:656][690]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.57.58:656][690]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.58:902][694]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.57.58:903][694]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.59:133][698]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.57.59:133][698]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.59:372][702]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.59:372][702]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.59:621][706]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.59:621][706]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.57.59:868][710]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.57.59:869][710]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.00:084][714]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.00:084][714]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.00:340][720]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.00:340][720]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.00:505][725]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.00:505][725]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.00:764][731]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.00:764][731]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.00:941][735]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.00:941][735]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.01:170][741]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.01:170][741]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.01:421][745]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.01:421][745]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.01:626][750]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.01:626][750]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.01:884][754]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.01:885][754]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.02:135][758]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.62963
+[2021.06.26-19.58.02:135][758]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.02:351][762]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.02:352][762]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.02:591][767]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.58.02:591][767]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.02:793][772]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.814815
+[2021.06.26-19.58.02:793][772]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.03:038][778]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.58.03:038][778]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.03:272][782]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.703704
+[2021.06.26-19.58.03:272][782]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.03:499][786]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.666667
+[2021.06.26-19.58.03:499][786]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.03:734][790]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.03:734][790]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.03:973][795]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.58.03:973][795]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.04:219][799]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.58.04:219][799]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.04:477][803]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.04:477][803]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.04:713][808]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.58.04:713][808]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.04:947][812]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.58.04:947][812]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.05:204][816]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.58.05:204][816]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.05:424][822]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.05:424][822]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.05:676][826]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.05:676][826]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.05:938][830]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.05:939][830]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.06:174][835]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.06:174][835]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.06:343][839]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.06:343][839]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.06:609][847]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.06:609][847]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.06:818][853]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.06:818][853]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.07:036][859]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.07:036][859]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.07:259][863]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.07:259][863]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.07:503][868]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.481481
+[2021.06.26-19.58.07:503][868]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.07:748][872]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.07:748][872]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.07:924][876]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.07:924][876]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.08:188][882]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.08:188][882]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.08:373][889]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.08:373][889]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.08:662][897]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0.0
+[2021.06.26-19.58.08:662][897]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.08:896][902]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.08:896][902]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.09:103][907]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.09:103][907]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.09:362][911]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.09:363][911]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.09:529][917]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.09:529][917]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.09:741][925]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.09:741][925]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.09:964][933]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.09:964][933]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.10:179][941]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.10:179][941]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.10:397][949]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.10:397][949]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.10:621][956]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.10:622][956]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.10:834][960]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.10:834][960]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.11:050][968]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.11:050][968]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.11:302][972]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.11:302][972]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.11:513][977]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.11:513][977]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.11:767][984]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.11:767][984]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.11:956][991]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.11:956][991]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.12:172][999]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.12:172][999]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.12:375][  5]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.12:375][  5]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.12:622][ 10]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.58.12:622][ 10]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.12:816][ 16]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.12:816][ 16]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.13:076][ 23]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.13:076][ 23]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.13:299][ 27]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.58.13:299][ 27]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.13:524][ 34]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.777778
+[2021.06.26-19.58.13:524][ 34]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.13:799][ 39]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.13:799][ 39]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.14:052][ 43]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.222222
+[2021.06.26-19.58.14:053][ 43]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.14:291][ 47]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.14:292][ 47]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.14:563][ 51]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.14:563][ 51]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.14:770][ 54]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.14:771][ 54]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.14:983][ 57]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.14:984][ 57]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.15:201][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.15:201][ 60]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.15:419][ 63]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.15:419][ 63]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.15:644][ 66]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.15:644][ 66]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.15:866][ 69]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.888889
+[2021.06.26-19.58.15:866][ 69]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.16:086][ 72]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.58.16:086][ 72]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.16:323][ 75]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.16:323][ 75]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.16:570][ 78]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.16:570][ 78]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.16:816][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.16:816][ 81]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.17:068][ 84]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.17:068][ 84]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.17:322][ 87]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.851852
+[2021.06.26-19.58.17:322][ 87]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.17:566][ 90]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.37037
+[2021.06.26-19.58.17:566][ 90]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.17:812][ 93]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.17:812][ 93]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.18:051][ 96]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.18:051][ 96]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.18:294][ 99]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.18:295][ 99]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.18:527][102]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.18:527][102]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.18:757][105]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.18:757][105]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.18:983][108]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.18:983][108]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.19:209][111]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.19:209][111]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.19:441][114]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.19:441][114]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.19:655][117]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.19:655][117]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.19:874][120]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.19:874][120]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.20:092][123]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.58.20:092][123]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.20:314][126]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.58.20:314][126]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.20:535][129]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.58.20:535][129]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.20:757][132]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.703704
+[2021.06.26-19.58.20:757][132]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.20:982][135]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.58.20:982][135]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.21:201][138]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.925926
+[2021.06.26-19.58.21:201][138]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.21:429][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.925926
+[2021.06.26-19.58.21:429][141]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.21:649][144]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.962963
+[2021.06.26-19.58.21:649][144]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.21:857][147]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.962963
+[2021.06.26-19.58.21:857][147]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.22:057][150]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.962963
+[2021.06.26-19.58.22:057][150]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.22:266][153]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -2.037037
+[2021.06.26-19.58.22:266][153]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.22:475][156]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.851852
+[2021.06.26-19.58.22:475][156]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.22:710][159]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.666667
+[2021.06.26-19.58.22:711][159]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.22:938][162]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.22:938][162]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.23:153][165]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.23:153][165]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.23:359][168]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.23:359][168]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.23:556][171]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.23:556][171]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.23:791][175]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.23:791][175]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.24:005][179]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.24:005][179]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.24:226][183]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.24:226][183]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.24:447][187]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.24:447][187]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.24:670][191]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.24:670][191]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.24:881][195]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.24:881][195]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.25:109][199]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.25:109][199]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.25:353][203]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.25:353][203]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.25:626][207]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.481482
+[2021.06.26-19.58.25:626][207]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.25:848][210]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.407408
+[2021.06.26-19.58.25:848][210]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.26:024][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.259259
+[2021.06.26-19.58.26:024][213]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.26:269][217]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.26:269][217]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.26:468][220]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.26:468][220]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.26:687][223]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.26:687][223]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.26:908][226]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.26:908][226]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.27:115][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.27:115][229]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.27:331][232]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.222222
+[2021.06.26-19.58.27:332][232]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.27:548][235]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.185185
+[2021.06.26-19.58.27:548][235]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.27:764][238]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.555556
+[2021.06.26-19.58.27:764][238]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.27:984][241]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.27:984][241]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.28:220][244]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.28:220][244]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.28:452][247]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.28:452][247]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.28:680][250]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.28:680][250]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.28:901][253]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.28:901][253]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.29:110][256]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.29:110][256]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.29:324][259]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.29:324][259]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.29:528][262]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.29:529][262]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.29:734][265]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.29:734][265]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.29:948][268]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.29:948][268]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.30:169][271]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.185185
+[2021.06.26-19.58.30:169][271]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.30:385][274]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.30:385][274]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.30:648][278]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.30:648][278]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.30:873][281]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.333333
+[2021.06.26-19.58.30:873][281]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.31:089][284]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.31:089][284]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.31:301][287]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.31:301][287]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.31:560][291]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.31:560][291]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.31:822][295]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.31:822][295]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.32:088][299]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.58.32:088][299]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.32:291][302]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.58.32:291][302]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.32:546][306]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.592593
+[2021.06.26-19.58.32:547][306]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.32:811][310]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.58.32:811][310]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.33:066][314]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.58.33:066][314]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.33:324][318]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.074074
+[2021.06.26-19.58.33:324][318]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.33:580][322]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.58.33:580][322]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.33:837][326]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.740741
+[2021.06.26-19.58.33:837][326]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.34:083][330]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.740741
+[2021.06.26-19.58.34:083][330]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.34:337][334]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.34:338][334]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.34:544][337]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.407407
+[2021.06.26-19.58.34:544][337]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.34:785][341]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.037037
+[2021.06.26-19.58.34:785][341]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.35:020][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.35:020][345]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.35:287][349]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.35:287][349]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.35:541][353]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.35:541][353]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.36:258][356]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.074074
+[2021.06.26-19.58.36:258][356]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.36:466][359]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.259259
+[2021.06.26-19.58.36:466][359]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.36:720][361]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.925926
+[2021.06.26-19.58.36:720][361]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.36:942][364]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.333333
+[2021.06.26-19.58.36:942][364]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.37:183][367]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.185185
+[2021.06.26-19.58.37:183][367]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.37:424][370]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.58.37:424][370]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.37:653][373]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.962963
+[2021.06.26-19.58.37:653][373]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.37:875][376]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.37:875][376]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.38:090][379]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.148148
+[2021.06.26-19.58.38:090][379]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.38:372][382]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.037037
+[2021.06.26-19.58.38:372][382]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.38:612][385]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -1.0
+[2021.06.26-19.58.38:612][385]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.38:827][388]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.518519
+[2021.06.26-19.58.38:827][388]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.39:048][391]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.296296
+[2021.06.26-19.58.39:049][391]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.39:265][394]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.37037
+[2021.06.26-19.58.39:265][394]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.39:480][397]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.39:480][397]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.39:698][400]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.39:698][400]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.39:930][403]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.444444
+[2021.06.26-19.58.39:930][403]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.40:156][406]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.111111
+[2021.06.26-19.58.40:156][406]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.40:402][409]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.40:402][409]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.40:633][412]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.40:633][412]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.40:856][415]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.40:856][415]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.41:090][418]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.41:090][418]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.41:317][421]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.41:317][421]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.41:546][424]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.41:546][424]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.41:774][427]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.41:774][427]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.42:016][430]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.42:016][430]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.42:215][433]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.42:215][433]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.42:465][437]LogBlueprintUserMessages: [PhysicsBallBP_C_1] -0.148148
+[2021.06.26-19.58.42:465][437]LogBlueprintUserMessages: [PhysicsBallBP_C_1] 0
+[2021.06.26-19.58.42:863][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.26-19.58.42:863][439]LogWorld: BeginTearingDown for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2021.06.26-19.58.42:864][439]LogWorld: UWorld::CleanupWorld for RollingBPExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.26-19.58.42:864][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.26-19.58.42:873][439]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.26-19.58.42:876][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.26-19.58.42:895][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.26-19.58.42:896][439]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.26-19.58.42:912][439]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden

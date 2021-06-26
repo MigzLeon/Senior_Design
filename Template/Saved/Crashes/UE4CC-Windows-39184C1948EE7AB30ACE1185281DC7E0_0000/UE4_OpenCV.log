@@ -1,0 +1,1621 @@
+﻿Log file open, 06/01/21 16:43:27
+LogInit: Display: Running engine for game: UE4_OpenCV
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.147297
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin LeapUnreal
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25Plus-CL-0
+LogInit: Engine Version: 4.25.0-0+++UE4+Release-4.25Plus
+LogInit: Compatible Engine Version: 4.25.0-0+++UE4+Release-4.25Plus
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 2700X Eight-Core Processor         , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): May 31 2021 17:23:32
+LogInit: Compiled with Visual C++: 19.28.29915.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25Plus
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/touch/Github/UnrealEngine4-25+/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:534][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:542][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.01-20.43.27:542][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.01-20.43.27:543][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.01-20.43.27:544][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.01-20.43.27:544][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.01-20.43.27:544][  0]LogHAL: Display: Platform has ~ 16 GB [17107234816 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.01-20.43.27:544][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.01-20.43.27:544][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Scalability.ini]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.06.01-20.43.27:545][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.01-20.43.27:546][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.01-20.43.27:546][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.01-20.43.27:546][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.01-20.43.27:546][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/touch/Github/Senior_Design/Template/Saved/Config/Windows/Engine.ini]
+[2021.06.01-20.43.27:546][  0]LogInit: Computer: DESKTOP-UMFHQ4F
+[2021.06.01-20.43.27:546][  0]LogInit: User: touch
+[2021.06.01-20.43.27:546][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.06.01-20.43.27:546][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.01-20.43.27:546][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.06.01-20.43.27:546][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.01-20.43.27:546][  0]LogMemory: Process Physical Memory: 116.27 MB used, 116.27 MB peak
+[2021.06.01-20.43.27:546][  0]LogMemory: Process Virtual Memory: 108.20 MB used, 108.20 MB peak
+[2021.06.01-20.43.27:546][  0]LogMemory: Physical Memory: 9602.87 MB used,  6711.86 MB free, 16314.73 MB total
+[2021.06.01-20.43.27:546][  0]LogMemory: Virtual Memory: 5197.08 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2021.06.01-20.43.27:555][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.01-20.43.27:628][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.01-20.43.27:629][  0]LogInit: Using OS detected language (en-US).
+[2021.06.01-20.43.27:629][  0]LogInit: Using OS detected locale (en-US).
+[2021.06.01-20.43.27:641][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.06.01-20.43.27:898][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.01-20.43.27:940][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.01-20.43.27:940][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.01-20.43.28:108][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.01-20.43.28:108][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.01-20.43.28:108][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.01-20.43.28:233][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.06.01-20.43.28:233][  0]LogD3D11RHI:       8088/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.06.01-20.43.28:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.01-20.43.28:237][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.01-20.43.28:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.01-20.43.28:254][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.01-20.43.28:254][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.01-20.43.28:254][  0]LogWindows: EnumDisplayDevices:
+[2021.06.01-20.43.28:254][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.06.01-20.43.28:255][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.06.01-20.43.28:255][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.06.01-20.43.28:255][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.06.01-20.43.28:255][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.06.01-20.43.28:255][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.06.01-20.43.28:255][  0]LogD3D11RHI:   Driver Version: 466.47 (internal:27.21.14.6647, unified:466.47)
+[2021.06.01-20.43.28:255][  0]LogD3D11RHI:      Driver Date: 5-13-2021
+[2021.06.01-20.43.28:255][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.06.01-20.43.28:365][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.01-20.43.28:365][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.01-20.43.28:365][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.01-20.43.28:402][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.01-20.43.28:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.01-20.43.28:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.01-20.43.28:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.01-20.43.28:816][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.01-20.43.28:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.01-20.43.28:852][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.01-20.43.28:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.01-20.43.28:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.01-20.43.28:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.01-20.43.28:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.01-20.43.28:905][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.01-20.43.28:916][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.01-20.43.28:916][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.01-20.43.28:925][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.01-20.43.28:993][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../Senior_Design/Template/Intermediate/Shaders/WorkingDirectory/25740/).
+[2021.06.01-20.43.28:993][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/touch/AppData/Local/Temp/UnrealShaderWorkingDir/778A644948C78254E268E3A525762993/'.
+[2021.06.01-20.43.28:994][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.06.01-20.43.28:994][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.01-20.43.28:994][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.01-20.43.29:825][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB ../../../../Senior_Design/Template/DerivedDataCache/Boot.ddc.
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../Senior_Design/Template/DerivedDataCache/Boot.ddc
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Senior_Design/Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.01-20.43.29:881][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2021.06.01-20.43.29:883][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2021.06.01-20.43.29:883][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.01-20.43.29:883][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.01-20.43.29:946][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.01-20.43.29:946][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.01-20.43.29:976][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2021.06.01-20.43.30:253][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.01-20.43.30:306][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.01-20.43.30:306][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.01-20.43.30:307][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.01-20.43.30:307][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.01-20.43.30:307][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.01-20.43.30:406][  0]LogNetVersion: UE4_OpenCV 1.0.0, NetCL: 0, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2496651142)
+[2021.06.01-20.43.30:878][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000172DFBA9BC0), frame # 0
+[2021.06.01-20.43.30:878][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172DFAE3D80), frame # 0
+[2021.06.01-20.43.30:880][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172DFB64600), frame # 0
+[2021.06.01-20.43.30:940][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.052637 seconds
+[2021.06.01-20.43.30:945][  0]LogUObjectArray: 15801 objects as part of root set at end of initial load.
+[2021.06.01-20.43.30:946][  0]LogUObjectAllocator: 3934656 out of 0 bytes used by permanent object pool.
+[2021.06.01-20.43.30:946][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.01-20.43.31:349][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.01-20.43.31:355][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.01-20.43.31:450][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.31:450][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.31:454][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.31:457][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.31:467][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.31:677][  0]LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' (GetLastError=126)
+[2021.06.01-20.43.31:677][  0]LogWindows: File '../../../Engine/Binaries/ThirdParty/LeapMotion/Win64/LeapC.dll' does not exist
+[2021.06.01-20.43.31:677][  0]LeapMotionLog: Leap Plugin started v3.6
+[2021.06.01-20.43.31:772][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.01-20.43.31:797][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.01-20.43.31:798][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.01-20.43.31:859][  0]LogOcInput: OculusInput pre-init called
+[2021.06.01-20.43.31:873][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.06.01-20.43.31:873][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.06.01-20.43.55:034][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.01-20.43.55:096][  0]LogClass: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.01-20.43.55:096][  0]LogClass: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.01-20.43.55:096][  0]LogClass: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.01-20.43.55:097][  0]LogClass: Display: 3 Uninitialized script stuct members found
+[2021.06.01-20.43.55:097][  0]LogAutomationTest: Warning: ObjectProperty FMappedBoneAnimData::BodyStateSkeleton is not initialized properly
+[2021.06.01-20.43.55:097][  0]LogAutomationTest: Warning: FBodyStateDeviceConfig::InputType is not initialized properly
+[2021.06.01-20.43.55:097][  0]LogAutomationTest: Warning: FLeapStats::FrameExtrapolationInMS is not initialized properly
+[2021.06.01-20.43.55:097][  0]LogEngine: Initializing Engine...
+[2021.06.01-20.43.55:099][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.01-20.43.55:100][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.01-20.43.55:251][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.01-20.43.55:261][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.01-20.43.55:261][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172E3BA1A00), frame # 0
+[2021.06.01-20.43.55:261][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172E3B77B00), frame # 0
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.01-20.43.55:281][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.01-20.43.55:281][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.01-20.43.55:281][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.01-20.43.55:309][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.01-20.43.55:309][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.01-20.43.55:362][  0]LogAudioMixer: Display: Using Audio Device VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)
+[2021.06.01-20.43.55:366][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.01-20.43.55:368][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.01-20.43.55:368][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.01-20.43.55:369][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.01-20.43.55:369][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.01-20.43.55:369][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.01-20.43.55:370][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.01-20.43.55:370][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.01-20.43.55:370][  0]LogInit: FAudioDevice initialized.
+[2021.06.01-20.43.55:370][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.01-20.43.55:371][  0]LogDerivedDataCache: Error: Could not save memory cache ../../../../Senior_Design/Template/DerivedDataCache/Boot.ddc.
+[2021.06.01-20.43.55:377][  0]LogInit: Texture streaming: Enabled
+[2021.06.01-20.43.55:398][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.01-20.43.55:398][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.01-20.43.55:400][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.01-20.43.55:457][  0]LogInit: Transaction tracking system initialized
+[2021.06.01-20.43.55:487][  0]BlueprintLog: New page: Editor Load
+[2021.06.01-20.43.55:576][  0]LocalizationService: Localization service is disabled
+[2021.06.01-20.43.55:754][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.06.01-20.43.55:754][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.01-20.43.55:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/touch/Github/Senior_Design/Template/Content/' took 0.01s
+[2021.06.01-20.43.55:928][  0]SourceControl: Source control is disabled
+[2021.06.01-20.43.55:928][  0]LogUnrealEdMisc: Loading editor; pre map load, took 30.312
+[2021.06.01-20.43.55:928][  0]Cmd: MAP LOAD FILE="../../../../Senior_Design/Template/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.01-20.43.55:946][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.01-20.43.55:970][  0]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.01-20.44.10:914][  0]LogSlate: Window 'Message' being destroyed
+[2021.06.01-20.44.10:914][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.01-20.44.10:920][  0]Message dialog closed, result: Ok, title: Message, text: Failed to load map!
+../../../../Senior_Design/Template/Content/StarterContent/Maps/Minimal_Default.umap is a UE4 map [File:v522], from an engine release newer than this [Cur:v518].
+[2021.06.01-20.44.10:921][  0]LightingResults: New page: Lighting Build
+[2021.06.01-20.44.10:922][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.44.10:922][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.44.10:922][  0]MapCheck: New page: Map Check
+[2021.06.01-20.44.10:922][  0]LightingResults: New page: Lighting Build
+[2021.06.01-20.44.10:937][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000172E3BA1A00), frame # 0
+[2021.06.01-20.44.10:937][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000172E3B77B00), frame # 0
+[2021.06.01-20.44.10:938][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.06.01-20.44.10:945][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.01-20.44.10:945][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172CC65FE00), frame # 0
+[2021.06.01-20.44.10:945][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172E3701E40), frame # 0
+[2021.06.01-20.44.10:948][  0]LoadErrors: New page: New Map
+[2021.06.01-20.44.10:951][  0]LogUnrealEdMisc: Total Editor Startup Time, took 45.335
+[2021.06.01-20.44.11:024][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.06.01-20.44.11:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.01-20.44.11:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.01-20.44.11:094][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.01-20.44.11:102][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.01-20.44.11:111][  0]LogCollectionManager: Loaded 0 collections in 0.003884 seconds
+[2021.06.01-20.44.11:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/touch/Github/Senior_Design/Template/Saved/Collections/' took 0.00s
+[2021.06.01-20.44.11:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/touch/Github/Senior_Design/Template/Content/Developers/touch/Collections/' took 0.00s
+[2021.06.01-20.44.11:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/touch/Github/Senior_Design/Template/Content/Collections/' took 0.00s
+[2021.06.01-20.44.11:133][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 3434 classes and 822 folders.
+[2021.06.01-20.44.11:136][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.06.01-20.44.11:208][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.06.01-20.44.11:210][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.06.01-20.44.11:238][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.06.01-20.44.11:238][  0]LogLoad: (Engine Initialization) Total time: 45.62 seconds
+[2021.06.01-20.44.11:238][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.01-20.44.11:251][  0]LeapMotionLog: ServiceMessageLoop started.
+[2021.06.01-20.44.11:251][  0]BodyStateLog: BodyState::DeviceAttached: Leap Motion (1)
+[2021.06.01-20.44.11:252][  0]BodyStateLog: BodyState::DeviceAttached: HMD (2)
+[2021.06.01-20.44.11:293][  0]LogAssetRegistry: Asset discovery search completed in 41.3182 seconds
+[2021.06.01-20.44.11:297][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2021.06.01-20.44.11:298][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.01-20.44.11:305][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.01-20.44.11:310][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.01-20.44.11:419][  1]LogRenderer: Reallocating scene render targets to support 992x536 Format 10 NumSamples 1 (Frame:1).
+[2021.06.01-20.44.29:207][ 21]LogRenderer: Reallocating scene render targets to support 992x796 Format 10 NumSamples 1 (Frame:2023).
+[2021.06.01-20.44.37:654][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.06.01-20.44.37:855][890]LogSlate: Took 0.008058 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.01-20.44.39:843][890]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.39:965][890]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/OpenCVReader/RawOpenCVMediaMat.RawOpenCVMediaMat
+[2021.06.01-20.44.39:972][890]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.01-20.44.40:414][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.06.01-20.44.40:429][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.06.01-20.44.40:444][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.06.01-20.44.41:042][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.01-20.44.41:737][955]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.41:839][955]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/OpenCVReader/PostOpenCVMat.PostOpenCVMat
+[2021.06.01-20.44.42:027][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.01-20.44.42:043][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.06.01-20.44.42:057][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.01-20.44.42:415][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.06.01-20.44.43:021][989]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.43:127][989]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.OpenCVMediaPlayer_Video
+[2021.06.01-20.44.43:311][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.06.01-20.44.43:327][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2021.06.01-20.44.43:342][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.01-20.44.43:596][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.06.01-20.44.44:215][ 15]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.44:321][ 15]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer.OpenCVMediaPlayer
+[2021.06.01-20.44.44:508][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.01-20.44.44:523][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.06.01-20.44.44:538][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.06.01-20.44.44:975][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:975][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:975][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:976][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:976][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:976][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:976][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:976][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:977][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:977][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:977][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:977][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:978][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:978][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:978][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:978][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:980][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:980][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:981][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:982][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:983][ 63]LogLinker: Warning: Failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:983][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:984][ 63]LoadErrors: Failed to load /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer.OpenCVMediaPlayer Referenced by Default__MyOpenCV_Reader_BP_C
+[2021.06.01-20.44.44:984][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer': Can't find file.
+[2021.06.01-20.44.44:984][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:984][ 63]LoadErrors: Failed to load /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.OpenCVMediaPlayer_Video Referenced by Default__MyOpenCV_Reader_BP_C
+[2021.06.01-20.44.44:984][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video': Can't find file.
+[2021.06.01-20.44.44:986][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:986][ 63]LoadErrors: Failed to load /Game/Blueprints/OpenCVReader/RawOpenCVMediaMat.RawOpenCVMediaMat Referenced by K2Node_CallFunction_0
+[2021.06.01-20.44.44:986][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat': Can't find file.
+[2021.06.01-20.44.44:986][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.44:986][ 63]LoadErrors: Failed to load /Game/Blueprints/OpenCVReader/PostOpenCVMat.PostOpenCVMat Referenced by K2Node_CallFunction_1
+[2021.06.01-20.44.44:986][ 63]LogLinker: Warning: While loading '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.uasset' failed to load '/Game/Blueprints/OpenCVReader/PostOpenCVMat': Can't find file.
+[2021.06.01-20.44.45:014][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2021.06.01-20.44.45:573][ 63]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.45:867][ 63]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/OpenCVReader/MyOpenCV_Reader_BP.MyOpenCV_Reader_BP
+[2021.06.01-20.44.46:066][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.01-20.44.46:083][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.01-20.44.46:097][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.01-20.44.46:783][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.06.01-20.44.47:673][135]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.01-20.44.47:770][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.06.01-20.44.47:797][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.06.01-20.44.47:812][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.06.01-20.45.03:230][886]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.06.01-20.45.03:231][886]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.06.01-20.45.03:281][886]LogSlate: Took 0.010285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.01-20.45.08:109][448]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.45.08:344][448]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 125 classes and 0 folders.
+[2021.06.01-20.45.09:434][448]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.06.01-20.45.11:729][647]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.45.11:736][647]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.45.11:748][647]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.45.11:748][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.45.24:253][866]LogSlate: Window 'Create Media Player' being destroyed
+[2021.06.01-20.46.05:213][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer.uasset" SILENT=true
+[2021.06.01-20.46.05:216][988]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/OpenCVMediaPlayer5D79D12D41C8890E6B113BAE582C095D.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer.uasset'
+[2021.06.01-20.46.05:400][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.06.01-20.46.05:433][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.06.01-20.46.05:453][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.06.01-20.46.05:479][988]AssetCheck: New page: Asset Save: OpenCVMediaPlayer
+[2021.06.01-20.46.05:479][988]LogContentValidation: Display: Validating MediaPlayer /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer.OpenCVMediaPlayer
+[2021.06.01-20.46.10:922][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.uasset" SILENT=true
+[2021.06.01-20.46.10:924][554]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/OpenCVMediaPlayer_Video88E8FEBB460B221233741FBD2733FA31.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.uasset'
+[2021.06.01-20.46.11:103][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2021.06.01-20.46.11:131][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.06.01-20.46.11:151][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2021.06.01-20.46.11:179][554]AssetCheck: New page: Asset Save: OpenCVMediaPlayer_Video
+[2021.06.01-20.46.11:179][554]LogContentValidation: Display: Validating MediaTexture /Game/Blueprints/OpenCVReader/OpenCVMediaPlayer_Video.OpenCVMediaPlayer_Video
+[2021.06.01-20.46.20:380][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/PostOpenCVMat" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/PostOpenCVMat.uasset" SILENT=true
+[2021.06.01-20.46.20:388][580]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/PostOpenCVMat375007524B99D73509FBE68D97F904B1.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/PostOpenCVMat.uasset'
+[2021.06.01-20.46.20:568][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.06.01-20.46.20:597][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.06.01-20.46.20:621][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.06.01-20.46.20:650][580]AssetCheck: New page: Asset Save: PostOpenCVMat
+[2021.06.01-20.46.20:650][580]LogContentValidation: Display: Validating Material /Game/Blueprints/OpenCVReader/PostOpenCVMat.PostOpenCVMat
+[2021.06.01-20.47.06:247][ 31]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.47.06:613][ 31]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2021.06.01-20.47.06:647][ 31]LogSlate: The tab "CompilerResults" attempted to spawn but failed for some reason. An "unrecognized tab" will be returned instead.
+[2021.06.01-20.47.09:921][216]LogSlate: Window 'CompilerResults' being destroyed
+[2021.06.01-20.47.09:930][216]LogSlate: Window 'CompilerResults' being destroyed
+[2021.06.01-20.47.12:245][463]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.47.12:256][463]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.47.12:256][463]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.47.12:323][463]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.47.22:802][996]BlueprintLog: New page: Compile MyOpenCV_Reader
+[2021.06.01-20.47.22:852][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.06.01-20.47.22:890][996]LogSlate: Took 0.009344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.01-20.47.26:824][189]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.47.26:832][189]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.47.26:835][189]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.47.26:836][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.47.28:500][361]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Blueprints/OpenCVReader/PostOpenCVMat.PostOpenCVMat
+[2021.06.01-20.47.28:501][361]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.47.28:830][361]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.47.28:841][361]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.47.28:857][361]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.47.31:008][452]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.06.01-20.47.31:008][452]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.06.01-20.47.31:008][452]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.06.01-20.47.31:008][452]MaterialEditorStats: Texture samplers: 2/16
+[2021.06.01-20.47.31:612][497]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Blueprints/OpenCVReader/RawOpenCVMediaMat.RawOpenCVMediaMat
+[2021.06.01-20.47.31:613][497]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.31:686][497]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.47.31:692][497]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.47.31:693][497]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.31:773][497]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 9
+[2021.06.01-20.47.31:774][497]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 8
+[2021.06.01-20.47.31:774][497]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 7
+[2021.06.01-20.47.32:472][525]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2021.06.01-20.47.32:627][534]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 5
+[2021.06.01-20.47.32:720][539]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.06.01-20.47.32:860][546]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2021.06.01-20.47.33:019][554]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.06.01-20.47.33:266][566]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.06.01-20.47.34:224][598]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.06.01-20.47.34:224][598]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.06.01-20.47.34:224][598]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.06.01-20.47.34:224][598]MaterialEditorStats: Texture samplers: 2/16
+[2021.06.01-20.47.43:108][782]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.43:118][782]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.47.43:127][782]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.47.43:133][782]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.01-20.47.43:184][783]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.06.01-20.47.43:184][783]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.06.01-20.47.43:184][783]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.06.01-20.47.43:896][809]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.06.01-20.47.44:508][832]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.06.01-20.47.44:508][832]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.06.01-20.47.44:508][832]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.06.01-20.47.44:508][832]MaterialEditorStats: Texture samplers: 2/16
+[2021.06.01-20.47.48:849][897]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.48:860][897]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.47.48:866][897]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.47.48:948][899]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.06.01-20.47.48:948][899]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.06.01-20.47.48:948][899]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.06.01-20.47.49:747][932]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: Texture samplers: 3/16
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.06.01-20.47.50:664][956]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.06.01-20.47.53:008][963]LogMaterialEditor: Saving and Compiling material RawOpenCVMediaMat
+[2021.06.01-20.47.53:621][963]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.47.53:655][963]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.47.53:656][963]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.47.53:656][963]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.47.53:656][963]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.47.53:688][963]LogMaterial: Display: Missing cached shader map for material RawOpenCVMediaMat, compiling. 
+[2021.06.01-20.47.53:714][963]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2021.06.01-20.47.53:714][963]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.06.01-20.47.53:714][963]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2021.06.01-20.47.53:743][963]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2021.06.01-20.47.53:757][963]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.01-20.47.54:886][963]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 11
+[2021.06.01-20.47.54:886][963]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2021.06.01-20.47.54:886][963]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 9
+[2021.06.01-20.47.54:886][963]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2021.06.01-20.47.54:886][963]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 5
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 3
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 2
+[2021.06.01-20.47.55:108][963]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1
+[2021.06.01-20.47.55:111][963]TextureStreamingBuild: Display: Compiling optional shaders took 1.362 seconds.
+[2021.06.01-20.47.55:138][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.06.01-20.47.56:133][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/RawOpenCVMediaMat.uasset" SILENT=true
+[2021.06.01-20.47.56:139][963]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/RawOpenCVMediaMat4F311C024E5C659C00BF1B97044C53C6.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/RawOpenCVMediaMat.uasset'
+[2021.06.01-20.47.56:176][963]AssetCheck: New page: Asset Save: RawOpenCVMediaMat
+[2021.06.01-20.47.56:176][963]LogContentValidation: Display: Validating Material /Game/Blueprints/OpenCVReader/RawOpenCVMediaMat.RawOpenCVMediaMat
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: Texture samplers: 4/16
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.06.01-20.47.56:178][963]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.06.01-20.47.56:976][ 30]LogMaterialEditor: Saving and Compiling material RawOpenCVMediaMat
+[2021.06.01-20.47.56:993][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/RawOpenCVMediaMat" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/RawOpenCVMediaMat.uasset" SILENT=true
+[2021.06.01-20.47.57:005][ 30]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/RawOpenCVMediaMat0C43885F4C7764AA06A21F98284E101B.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/RawOpenCVMediaMat.uasset'
+[2021.06.01-20.47.57:020][ 30]AssetCheck: New page: Asset Save: RawOpenCVMediaMat
+[2021.06.01-20.47.57:020][ 30]LogContentValidation: Display: Validating Material /Game/Blueprints/OpenCVReader/RawOpenCVMediaMat.RawOpenCVMediaMat
+[2021.06.01-20.47.58:936][170]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.47.58:936][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.48.24:916][554]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.48.24:923][554]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.48.24:986][555]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.48.25:006][555]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.06.01-20.48.25:006][555]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.06.01-20.48.25:006][555]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.06.01-20.48.25:006][555]LogSlate: Took 0.012834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.01-20.48.26:194][602]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2021.06.01-20.48.26:961][627]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.06.01-20.48.26:961][627]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.06.01-20.48.26:961][627]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.06.01-20.48.26:961][627]MaterialEditorStats: Texture samplers: 2/16
+[2021.06.01-20.48.54:474][942]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.48.54:490][942]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.48.54:490][942]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2021.06.01-20.48.54:574][944]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2021.06.01-20.48.54:574][944]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.06.01-20.48.54:574][944]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 2
+[2021.06.01-20.48.55:668][983]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: Texture samplers: 3/16
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.06.01-20.48.56:719][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.06.01-20.48.59:520][279]LogMaterialEditor: Saving and Compiling material PostOpenCVMat
+[2021.06.01-20.49.00:109][279]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.49.00:152][279]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 9
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 8
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 7
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 6
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 5
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 4
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 3
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2021.06.01-20.49.00:153][279]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1
+[2021.06.01-20.49.00:166][279]LogMaterial: Display: Missing cached shader map for material PostOpenCVMat, compiling. 
+[2021.06.01-20.49.00:194][279]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 15
+[2021.06.01-20.49.00:194][279]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 13
+[2021.06.01-20.49.00:194][279]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 11
+[2021.06.01-20.49.00:225][279]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2021.06.01-20.49.00:238][279]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.01-20.49.01:360][279]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 11
+[2021.06.01-20.49.01:360][279]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 10
+[2021.06.01-20.49.01:360][279]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 7
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 5
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 4
+[2021.06.01-20.49.01:626][279]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 3
+[2021.06.01-20.49.01:629][279]TextureStreamingBuild: Display: Compiling optional shaders took 1.397 seconds.
+[2021.06.01-20.49.01:657][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.06.01-20.49.01:674][279]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 2
+[2021.06.01-20.49.01:699][279]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2021.06.01-20.49.02:713][279]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/PostOpenCVMat" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/PostOpenCVMat.uasset" SILENT=true
+[2021.06.01-20.49.02:725][279]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/PostOpenCVMat0F1D45254EB38BFBAAC7C18FD17E36C4.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/PostOpenCVMat.uasset'
+[2021.06.01-20.49.02:758][279]AssetCheck: New page: Asset Save: PostOpenCVMat
+[2021.06.01-20.49.02:758][279]LogContentValidation: Display: Validating Material /Game/Blueprints/OpenCVReader/PostOpenCVMat.PostOpenCVMat
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: Texture samplers: 4/16
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.06.01-20.49.02:758][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.06.01-20.49.05:227][484]LogSlate: Window 'PostOpenCVMat' being destroyed
+[2021.06.01-20.49.05:239][484]LogSlate: Window 'PostOpenCVMat' being destroyed
+[2021.06.01-20.49.05:271][484]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.49.05:271][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.49.08:343][808]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.49.16:864][243]LogRenderer: Reallocating scene render targets to support 992x984 Format 10 NumSamples 1 (Frame:1).
+[2021.06.01-20.49.54:467][937]BlueprintLog: New page: Compile MyOpenCV_Reader
+[2021.06.01-20.49.54:571][937]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2021.06.01-20.49.55:185][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/MyOpenCV_Reader" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader.uasset" SILENT=true
+[2021.06.01-20.49.55:197][986]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/MyOpenCV_ReaderB83A03A442B0ED2351C58CB43007C3B8.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader.uasset'
+[2021.06.01-20.49.55:217][986]AssetCheck: New page: Asset Save: MyOpenCV_Reader
+[2021.06.01-20.49.55:217][986]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.56.53:072][713]BlueprintLog: New page: Compile MyOpenCV_Reader
+[2021.06.01-20.56.53:125][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.06.01-20.56.53:737][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/MyOpenCV_Reader" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader.uasset" SILENT=true
+[2021.06.01-20.56.53:765][762]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/MyOpenCV_Reader996EC05E4F2C07381F2E9A8550CC2ADF.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MyOpenCV_Reader.uasset'
+[2021.06.01-20.56.53:784][762]AssetCheck: New page: Asset Save: MyOpenCV_Reader
+[2021.06.01-20.56.53:784][762]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/OpenCVReader/MyOpenCV_Reader.MyOpenCV_Reader
+[2021.06.01-20.56.54:875][859]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.56.54:883][859]LogSlate: Window 'MyOpenCV_Reader' being destroyed
+[2021.06.01-20.56.54:895][859]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.56.54:895][859]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.57.07:859][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.07:859][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:134][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:135][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:136][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:136][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:137][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:137][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:222][430]LogTexture: Display: Building textures: T_Gradinet_01 (AutoDXT, 64X256)
+[2021.06.01-20.57.08:222][430]LogTexture: Display: Building textures: T_Ceramic_Tile_N (BC5, 2048X2048)
+[2021.06.01-20.57.08:222][430]LogTexture: Display: Building textures: T_Ceramic_Tile_M (DXT1, 2048X2048)
+[2021.06.01-20.57.08:225][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:225][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:226][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:226][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:226][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:226][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:227][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:227][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:227][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:227][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:228][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:228][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:228][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:228][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:229][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:229][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:230][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:230][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:230][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:230][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:231][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:231][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:231][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:232][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:232][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:232][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:233][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:233][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:233][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:234][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:234][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:234][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:234][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:235][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:235][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:235][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:235][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:236][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:236][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:236][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:237][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:237][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:237][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:238][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:238][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:238][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:239][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:239][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:239][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:239][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:240][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:240][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:240][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:241][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:241][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:241][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:241][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:242][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:242][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:242][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:242][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:243][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:243][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:243][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:243][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:244][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:244][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:244][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:244][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:245][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:245][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:245][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:245][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:245][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:246][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:246][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:246][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:246][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:246][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:247][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:247][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:247][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:247][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:247][430]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_CobbleStone_Rough_N (BC5, 1024X1024)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Frame_N (BC5, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Concrete_Grime_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Brick_Hewn_Stone_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_CobbleStone_Smooth_N (BC5, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_CobbleStone_Smooth_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_CobbleStone_Smooth_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Rock_Smooth_Granite_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Brick_Hewn_Stone_N (BC5, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Brick_Cut_Stone_N (BC5, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Brick_Hewn_Stone_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.08:740][430]LogTexture: Display: Building textures: T_CobbleStone_Pebble_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Frame_M (DXT1, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Concrete_Tiles_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Concrete_Tiles_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Concrete_Poured_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Concrete_Poured_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Rock_Sandstone_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Rock_Basalt_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_TableRound_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_TableRound_M (DXT1, 2048X2048)
+[2021.06.01-20.57.17:276][430]LogTexture: Display: Building textures: T_Detail_Rocky_N (BC5, 1024X1024)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Brick_Clay_New_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Brick_Clay_New_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Brick_Clay_New_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Ground_Grass_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Ground_Grass_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Concrete_Tiles_Variation_M (AutoDXT, 512X512)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Concrete_Tiles_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Metal_Aluminum_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Ground_Moss_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Concrete_Panels_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Concrete_Panels_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.17:277][430]LogTexture: Display: Building textures: T_Metal_Rust_N (BC5, 2048X2048)
+[2021.06.01-20.57.17:297][430]LogTexture: Display: Building textures: T_Tech_Dot_N (BC5, 512X512)
+[2021.06.01-20.57.17:476][430]LogTexture: Display: Building textures: T_Tech_Dot_M (AutoDXT, 512X512)
+[2021.06.01-20.57.17:476][430]LogTexture: Display: Building textures: T_CobbleStone_Pebble_N (BC5, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Wood_Pine_N (BC5, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Wood_Oak_N (BC5, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Wood_Pine_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_ground_Moss_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Ground_Gravel_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Ground_Gravel_N (BC5, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Brick_Clay_Beveled_N (BC5, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_MacroVariation (AutoDXT, 2048X2048)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Smoke_Tiled_D (AutoDXT, 256X256)
+[2021.06.01-20.57.18:526][430]LogTexture: Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.18:674][430]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.06.01-20.57.18:674][430]LogTexture: Display: Building textures: T_Spark_Core (AutoDXT, 512X512)
+[2021.06.01-20.57.18:674][430]LogTexture: Display: Building textures: T_CobbleStone_Pebble_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Water_N (BC5, 2048X2048)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Chair_N (BC5, 2048X2048)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Statue_N (BC5, 1024X1024)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Statue_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Tech_Hex_Tile_N (BC5, 1024X1024)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Tech_Hex_Tile_M (AutoDXT, 1024X1024)
+[2021.06.01-20.57.20:018][430]LogTexture: Display: Building textures: T_Rock_Basalt_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:990][430]LogTexture: Display: Building textures: T_Metal_Steel_N (BC5, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Metal_Steel_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Wood_Floor_Walnut_N (BC5, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Water_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Dust_Particle_D (AutoDXT, 128X128)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Metal_Rust_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Metal_Gold_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Brick_Cut_Stone_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Perlin_Noise_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Brick_Clay_Old_N (BC5, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Tech_Panel_N (BC5, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Brick_Clay_Old_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogTexture: Display: Building textures: T_Tech_Panel_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.26:991][430]LogMaterial: Display: Missing cached shader map for material M_CobbleStone_Pebble, compiling. 
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Wood_Oak_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Chair_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 21
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 18
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 12
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2021.06.01-20.57.34:280][430]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Wood_Walnut_N (BC5, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Wood_Walnut_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Rock_Slate_N (BC5, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Rock_Slate_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Rock_Sandstone_N (BC5, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Metal_Copper_D (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Metal_Gold_N (BC5, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_CobbleStone_Rough_D (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Lamp_N (BC5, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Lamp_M (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Smoke_SubUV (AutoDXT, 2048X2048)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 1024X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Fire_Tiled_D (AutoDXT, 512X512)
+[2021.06.01-20.57.34:280][430]LogTexture: Display: Building textures: T_Fire_SubUV (AutoDXT, 1024X1024)
+[2021.06.01-20.57.34:280][430]LogMaterial: Display: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 21
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 18
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 15
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 12
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 9
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 6
+[2021.06.01-20.57.34:299][430]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2021.06.01-20.57.34:299][430]LogMaterial: Display: Missing cached shader map for material M_Concrete_Grime, compiling. 
+[2021.06.01-20.57.34:320][430]LogMaterial: Display: Missing cached shader map for material M_CobbleStone_Smooth, compiling. 
+[2021.06.01-20.57.34:346][430]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 48
+[2021.06.01-20.57.34:346][430]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 43
+[2021.06.01-20.57.34:347][430]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 38
+[2021.06.01-20.57.34:347][430]LogMaterial: Display: Missing cached shader map for material M_Brick_Hewn_Stone, compiling. 
+[2021.06.01-20.57.34:409][430]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_New, compiling. 
+[2021.06.01-20.57.34:428][430]LogMaterial: Display: Missing cached shader map for material M_Frame, compiling. 
+[2021.06.01-20.57.34:476][430]LogStaticMesh: Building static mesh SM_CornerFrame...
+[2021.06.01-20.57.34:490][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_CornerFrame.SM_CornerFrame
+[2021.06.01-20.57.34:532][430]LogStaticMesh: Building static mesh SM_Chair...
+[2021.06.01-20.57.34:548][430]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2021.06.01-20.57.34:572][430]LogMaterial: Display: Missing cached shader map for material M_Glass, compiling. 
+[2021.06.01-20.57.34:725][430]LogStaticMesh: Building static mesh SM_GlassWindow...
+[2021.06.01-20.57.34:731][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_GlassWindow.SM_GlassWindow
+[2021.06.01-20.57.34:746][430]LogStaticMesh: Building static mesh SM_DoorFrame...
+[2021.06.01-20.57.34:747][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_DoorFrame.SM_DoorFrame
+[2021.06.01-20.57.34:750][430]LogMaterial: Display: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2021.06.01-20.57.34:791][430]LogMaterial: Display: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2021.06.01-20.57.34:809][430]LogMaterial: Display: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2021.06.01-20.57.34:839][430]LogStaticMesh: Building static mesh Shape_Cube...
+[2021.06.01-20.57.34:839][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube
+[2021.06.01-20.57.34:845][430]LogStaticMesh: Building static mesh SM_WindowFrame...
+[2021.06.01-20.57.34:846][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Props/SM_WindowFrame.SM_WindowFrame
+[2021.06.01-20.57.34:873][430]LogStaticMesh: Building static mesh Shape_Sphere...
+[2021.06.01-20.57.34:896][430]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere
+[2021.06.01-20.57.34:931][430]LogStaticMesh: Building static mesh Shape_QuadPyramid...
+[2021.06.01-20.57.34:932][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Shapes/Shape_QuadPyramid.Shape_QuadPyramid
+[2021.06.01-20.57.34:936][430]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_Old, compiling. 
+[2021.06.01-20.57.34:953][430]LogMaterial: Display: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2021.06.01-20.57.34:984][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2021.06.01-20.57.35:001][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2021.06.01-20.57.35:038][430]LogMaterial: Display: Missing cached shader map for material M_Concrete_Poured, compiling. 
+[2021.06.01-20.57.35:058][430]LogMaterial: Display: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2021.06.01-20.57.35:173][430]LogMaterial: Display: Missing cached shader map for material M_Wood_Walnut, compiling. 
+[2021.06.01-20.57.35:205][430]LogMaterial: Display: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2021.06.01-20.57.35:223][430]LogMaterial: Display: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2021.06.01-20.57.35:244][430]LogMaterial: Display: Missing cached shader map for material M_Ground_Gravel, compiling. 
+[2021.06.01-20.57.35:336][430]LogStaticMesh: Building static mesh Wall_Window_400x300...
+[2021.06.01-20.57.35:337][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2021.06.01-20.57.35:358][430]LogStaticMesh: Building static mesh Wall_Door_400x300...
+[2021.06.01-20.57.35:359][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_Door_400x300.Wall_Door_400x300
+[2021.06.01-20.57.35:611][430]LogMaterial: Display: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2021.06.01-20.57.35:713][430]LogMaterial: Display: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2021.06.01-20.57.35:744][430]LogMaterial: Display: Missing cached shader map for material M_Spark, compiling. 
+[2021.06.01-20.57.35:779][430]LogMaterial: Display: Missing cached shader map for material M_Brick_Clay_Beveled, compiling. 
+[2021.06.01-20.57.35:819][430]LogMaterial: Display: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2021.06.01-20.57.35:852][430]LogMaterial: Display: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2021.06.01-20.57.35:877][430]LogMaterial: Display: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2021.06.01-20.57.36:042][430]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 812
+[2021.06.01-20.57.36:042][430]LogStaticMesh: Building static mesh SM_Lamp_Ceiling...
+[2021.06.01-20.57.36:081][430]LogStaticMesh: Built static mesh [0.04s] /Game/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2021.06.01-20.57.36:138][430]LogStaticMesh: Building static mesh SM_Lamp_Wall...
+[2021.06.01-20.57.36:150][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_Lamp_Wall.SM_Lamp_Wall
+[2021.06.01-20.57.36:172][430]LogStaticMesh: Building static mesh MaterialSphere...
+[2021.06.01-20.57.36:181][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/MaterialSphere.MaterialSphere
+[2021.06.01-20.57.36:197][430]LogStaticMesh: Building static mesh SM_PillarFrame...
+[2021.06.01-20.57.36:208][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame.SM_PillarFrame
+[2021.06.01-20.57.36:226][430]LogStaticMesh: Building static mesh SM_PillarFrame300...
+[2021.06.01-20.57.36:234][430]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Props/SM_PillarFrame300.SM_PillarFrame300
+[2021.06.01-20.57.36:314][430]LogStaticMesh: Building static mesh SM_Statue...
+[2021.06.01-20.57.36:381][430]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2021.06.01-20.57.36:506][430]LogStaticMesh: Building static mesh SM_TableRound...
+[2021.06.01-20.57.36:576][430]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 802
+[2021.06.01-20.57.36:576][430]LogStaticMesh: Built static mesh [0.07s] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2021.06.01-20.57.36:596][430]LogStaticMesh: Building static mesh Wall_400x200...
+[2021.06.01-20.57.36:596][430]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2021.06.01-20.57.36:633][430]LogMaterial: Display: Missing cached shader map for material M_Statue, compiling. 
+[2021.06.01-20.57.36:678][430]LogMaterial: Display: Missing cached shader map for material M_TableRound, compiling. 
+[2021.06.01-20.57.36:710][430]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 816
+[2021.06.01-20.57.36:710][430]LogMaterial: Display: Missing cached shader map for material M_StatueGlass, compiling. 
+[2021.06.01-20.57.36:758][430]LogMaterial: Display: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2021.06.01-20.57.36:791][430]LogMaterial: Display: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2021.06.01-20.57.36:816][430]LogMaterial: Display: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2021.06.01-20.57.36:843][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2021.06.01-20.57.36:876][430]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Polished, compiling. 
+[2021.06.01-20.57.36:934][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2021.06.01-20.57.36:969][430]LogMaterial: Display: Missing cached shader map for material M_Brick_Cut_Stone, compiling. 
+[2021.06.01-20.57.37:004][430]LogMaterial: Display: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2021.06.01-20.57.37:040][430]LogMaterial: Display: Missing cached shader map for material M_Water_Lake, compiling. 
+[2021.06.01-20.57.37:068][430]LogMaterial: Display: Missing cached shader map for material M_Tech_Panel, compiling. 
+[2021.06.01-20.57.37:094][430]LogMaterial: Display: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2021.06.01-20.57.37:134][430]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1115
+[2021.06.01-20.57.37:134][430]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1105
+[2021.06.01-20.57.37:134][430]LogMaterial: Display: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2021.06.01-20.57.37:157][430]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1119
+[2021.06.01-20.57.37:157][430]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2021.06.01-20.57.37:179][430]LogMaterial: Display: Missing cached shader map for material M_Tech_Checker_Dot, compiling. 
+[2021.06.01-20.57.37:202][430]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1181
+[2021.06.01-20.57.37:202][430]LogMaterial: Display: Missing cached shader map for material M_Rock_Slate, compiling. 
+[2021.06.01-20.57.37:225][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2021.06.01-20.57.37:247][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2021.06.01-20.57.37:276][430]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1219
+[2021.06.01-20.57.37:276][430]LogMaterial: Display: Missing cached shader map for material M_Metal_Chrome, compiling. 
+[2021.06.01-20.57.37:304][430]LogMaterial: Display: Missing cached shader map for material M_CobbleStone_Rough, compiling. 
+[2021.06.01-20.57.37:329][430]LogMaterial: Display: Missing cached shader map for material AntiAliasedTextMaterialTranslucent, compiling. 
+[2021.06.01-20.57.37:360][430]LogMaterial: Display: Missing cached shader map for material M_Lamp, compiling. 
+[2021.06.01-20.57.37:388][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Smoke01...
+[2021.06.01-20.57.37:391][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Smoke01.Smoke01 will be modified from 80 to 80.
+[2021.06.01-20.57.37:478][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 473062 while cooking SoundWave /Game/StarterContent/Audio/Smoke01.Smoke01.
+[2021.06.01-20.57.37:485][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Collapse02...
+[2021.06.01-20.57.37:488][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02 will be modified from 80 to 80.
+[2021.06.01-20.57.37:536][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 343628 while cooking SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02.
+[2021.06.01-20.57.37:537][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Collapse01...
+[2021.06.01-20.57.37:540][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01 will be modified from 80 to 80.
+[2021.06.01-20.57.37:601][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 345534 while cooking SoundWave /Game/StarterContent/Audio/Collapse01.Collapse01.
+[2021.06.01-20.57.37:602][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Starter_Wind06...
+[2021.06.01-20.57.37:610][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06 will be modified from 80 to 80.
+[2021.06.01-20.57.37:862][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2193200 while cooking SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06.
+[2021.06.01-20.57.37:871][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Starter_Birds01...
+[2021.06.01-20.57.37:879][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Starter_Birds01.Starter_Birds01 will be modified from 80 to 80.
+[2021.06.01-20.57.38:213][430]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1338
+[2021.06.01-20.57.38:213][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2686992 while cooking SoundWave /Game/StarterContent/Audio/Starter_Birds01.Starter_Birds01.
+[2021.06.01-20.57.38:216][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Starter_Wind05...
+[2021.06.01-20.57.38:228][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Starter_Wind05.Starter_Wind05 will be modified from 80 to 80.
+[2021.06.01-20.57.38:476][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2310208 while cooking SoundWave /Game/StarterContent/Audio/Starter_Wind05.Starter_Wind05.
+[2021.06.01-20.57.38:479][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Fire_Sparks01...
+[2021.06.01-20.57.38:482][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Fire_Sparks01.Fire_Sparks01 will be modified from 80 to 80.
+[2021.06.01-20.57.38:578][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 793600 while cooking SoundWave /Game/StarterContent/Audio/Fire_Sparks01.Fire_Sparks01.
+[2021.06.01-20.57.38:580][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Steam01...
+[2021.06.01-20.57.38:583][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Steam01.Steam01 will be modified from 80 to 80.
+[2021.06.01-20.57.38:674][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 816620 while cooking SoundWave /Game/StarterContent/Audio/Steam01.Steam01.
+[2021.06.01-20.57.38:675][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Fire01...
+[2021.06.01-20.57.38:677][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Fire01.Fire01 will be modified from 80 to 80.
+[2021.06.01-20.57.38:756][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 546572 while cooking SoundWave /Game/StarterContent/Audio/Fire01.Fire01.
+[2021.06.01-20.57.38:759][430]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Starter_Music01...
+[2021.06.01-20.57.38:784][430]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/StarterContent/Audio/Starter_Music01.Starter_Music01 will be modified from 80 to 80.
+[2021.06.01-20.57.39:795][430]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 8442120 while cooking SoundWave /Game/StarterContent/Audio/Starter_Music01.Starter_Music01.
+[2021.06.01-20.57.40:142][430]LogTexture: Display: Building textures: S_AudioComponent_AutoActivate (BGRA8, 256X256)
+[2021.06.01-20.57.40:142][430]LogTexture: Display: Building textures: S_AudioComponent (BGRA8, 256X256)
+[2021.06.01-20.57.40:147][430]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/StarterMap.StarterMap
+[2021.06.01-20.57.40:296][430]LogUObjectHash: Compacting FUObjectHashTables data took   6.37ms
+[2021.06.01-20.57.40:350][430]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1328
+[2021.06.01-20.57.40:697][430]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1318
+[2021.06.01-20.57.40:830][430]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1308
+[2021.06.01-20.57.42:446][430]LogSlate: Window 'Save Content' being destroyed
+[2021.06.01-20.57.42:491][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/OpenCVReader/MediaRenderTarget" FILE="../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MediaRenderTarget.uasset" SILENT=true
+[2021.06.01-20.57.42:498][430]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/MediaRenderTargetCDA891BE4954271C5381449CAAA3E91F.tmp' to '../../../../Senior_Design/Template/Content/Blueprints/OpenCVReader/MediaRenderTarget.uasset'
+[2021.06.01-20.57.42:500][430]Cmd: MAP LOAD FILE="../../../../Senior_Design/Template/Content/StarterContent/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.01-20.57.42:501][430]LightingResults: New page: Lighting Build
+[2021.06.01-20.57.42:503][430]LoadErrors: New page: Loading map: StarterMap.umap
+[2021.06.01-20.57.42:506][430]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.57.42:506][430]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.57.42:507][430]MapCheck: New page: Map Check
+[2021.06.01-20.57.42:507][430]LightingResults: New page: Lighting Build
+[2021.06.01-20.57.42:589][430]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000172E3701E40), frame # 55430
+[2021.06.01-20.57.42:589][430]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000172CC65FE00), frame # 55430
+[2021.06.01-20.57.42:638][430]LogUObjectHash: Compacting FUObjectHashTables data took   8.20ms
+[2021.06.01-20.57.42:706][430]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.01-20.57.42:706][430]LogAIModule: Creating AISystem for world StarterMap
+[2021.06.01-20.57.42:706][430]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017296014600), frame # 55430
+[2021.06.01-20.57.42:706][430]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017297719300), frame # 55430
+[2021.06.01-20.57.42:755][430]LogUObjectHash: Compacting FUObjectHashTables data took  17.35ms
+[2021.06.01-20.57.42:796][430]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.01-20.57.42:797][430]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.082ms to complete.
+[2021.06.01-20.57.42:797][430]LogFileHelpers: Loading map 'StarterMap' took 0.297
+[2021.06.01-20.57.42:902][430]AssetCheck: New page: Asset Save: MediaRenderTarget
+[2021.06.01-20.57.42:902][430]LogContentValidation: Display: Validating TextureRenderTarget2D /Game/Blueprints/OpenCVReader/MediaRenderTarget.MediaRenderTarget
+[2021.06.01-20.57.44:130][448]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1298
+[2021.06.01-20.57.44:938][495]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1288
+[2021.06.01-20.57.46:674][559]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1278
+[2021.06.01-20.57.47:110][563]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1268
+[2021.06.01-20.57.47:396][567]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1258
+[2021.06.01-20.57.47:493][572]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1248
+[2021.06.01-20.57.48:051][591]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1238
+[2021.06.01-20.57.48:440][603]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1228
+[2021.06.01-20.57.49:726][662]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1218
+[2021.06.01-20.57.51:368][740]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1208
+[2021.06.01-20.57.57:132][936]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1198
+[2021.06.01-20.57.57:222][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2021.06.01-20.57.57:864][942]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1188
+[2021.06.01-20.57.58:674][963]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1178
+[2021.06.01-20.58.00:628][ 31]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1168
+[2021.06.01-20.58.00:879][ 31]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1158
+[2021.06.01-20.58.02:280][ 56]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1148
+[2021.06.01-20.58.02:521][ 66]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1138
+[2021.06.01-20.58.06:172][194]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1128
+[2021.06.01-20.58.07:724][234]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 1118
+[2021.06.01-20.58.08:956][285]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1108
+[2021.06.01-20.58.09:019][288]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 1098
+[2021.06.01-20.58.09:467][313]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1088
+[2021.06.01-20.58.10:010][341]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1078
+[2021.06.01-20.58.12:738][501]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 1068
+[2021.06.01-20.58.12:915][516]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1058
+[2021.06.01-20.58.12:947][519]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 1048
+[2021.06.01-20.58.14:648][635]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1038
+[2021.06.01-20.58.15:180][677]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1028
+[2021.06.01-20.58.15:600][694]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 1018
+[2021.06.01-20.58.16:024][716]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1008
+[2021.06.01-20.58.17:509][785]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 998
+[2021.06.01-20.58.17:705][789]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 988
+[2021.06.01-20.58.17:903][800]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 978
+[2021.06.01-20.58.20:288][895]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 968
+[2021.06.01-20.58.20:412][899]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 958
+[2021.06.01-20.58.21:389][927]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 948
+[2021.06.01-20.58.21:740][942]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 938
+[2021.06.01-20.58.23:401][ 10]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 928
+[2021.06.01-20.58.24:385][ 41]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 918
+[2021.06.01-20.58.25:208][ 73]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 908
+[2021.06.01-20.58.25:606][ 87]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 898
+[2021.06.01-20.58.26:076][109]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 888
+[2021.06.01-20.58.26:234][114]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 878
+[2021.06.01-20.58.29:431][233]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 868
+[2021.06.01-20.58.30:452][271]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 858
+[2021.06.01-20.58.30:732][281]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 848
+[2021.06.01-20.58.30:945][287]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 838
+[2021.06.01-20.58.31:839][322]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 828
+[2021.06.01-20.58.34:061][400]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.06.01-20.58.34:085][400]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2021.06.01-20.58.34:127][400]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 818
+[2021.06.01-20.58.34:297][400]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 808
+[2021.06.01-20.58.35:127][400]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 798
+[2021.06.01-20.58.35:144][400]LogSlate: Window 'Save Content' being destroyed
+[2021.06.01-20.58.35:186][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2021.06.01-20.58.35:197][400]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/Minimal_DefaultA2E77A9644CF7088F8AC63860F727720.tmp' to '../../../../Senior_Design/Template/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.06.01-20.58.35:199][400]LogFileHelpers: Saving map 'Minimal_Default' took 0.039
+[2021.06.01-20.58.35:200][400]Cmd: MAP LOAD FILE="../../../../Senior_Design/Template/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.01-20.58.35:200][400]LightingResults: New page: Lighting Build
+[2021.06.01-20.58.35:200][400]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2021.06.01-20.58.35:206][400]LogWorld: UWorld::CleanupWorld for StarterMap, bSessionEnded=true, bCleanupResources=true
+[2021.06.01-20.58.35:206][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.01-20.58.35:206][400]MapCheck: New page: Map Check
+[2021.06.01-20.58.35:206][400]LightingResults: New page: Lighting Build
+[2021.06.01-20.58.35:241][400]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017297719300), frame # 57400
+[2021.06.01-20.58.35:242][400]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017296014600), frame # 57400
+[2021.06.01-20.58.35:246][400]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.06.01-20.58.35:255][400]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.01-20.58.35:255][400]LogAIModule: Creating AISystem for world Minimal_Default
+[2021.06.01-20.58.35:255][400]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017298545400), frame # 57400
+[2021.06.01-20.58.35:255][400]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000172976991C0), frame # 57400
+[2021.06.01-20.58.35:282][400]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.06.01-20.58.35:327][400]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.01-20.58.35:327][400]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.235ms to complete.
+[2021.06.01-20.58.35:327][400]LogFileHelpers: Loading map 'Minimal_Default' took 0.128
+[2021.06.01-20.58.35:425][400]AssetCheck: New page: Asset Save: Minimal_Default
+[2021.06.01-20.58.35:425][400]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.06.01-20.58.35:618][412]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 788
+[2021.06.01-20.58.35:852][433]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 778
+[2021.06.01-20.58.36:110][455]LogEditorViewport: Clicking Background
+[2021.06.01-20.58.36:579][493]Cmd: EDIT PASTE
+[2021.06.01-20.58.36:622][493]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.58.36:622][493]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.58.36:622][493]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/StarterContent/Architecture/Floor_400x400.Floor_400x400"''
+[2021.06.01-20.58.36:628][493]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.58.36:628][493]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/StarterContent/Architecture/Floor_400x400.Floor_400x400"''
+[2021.06.01-20.58.36:654][493]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.01-20.58.36:818][499]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 768
+[2021.06.01-20.58.36:958][507]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 758
+[2021.06.01-20.58.37:056][513]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 748
+[2021.06.01-20.58.37:209][523]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 738
+[2021.06.01-20.58.38:307][588]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 728
+[2021.06.01-20.58.38:641][606]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 718
+[2021.06.01-20.58.39:144][636]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 708
+[2021.06.01-20.58.40:318][710]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 698
+[2021.06.01-20.58.41:038][755]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 688
+[2021.06.01-20.58.41:257][766]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 678
+[2021.06.01-20.58.41:749][795]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 668
+[2021.06.01-20.58.42:041][815]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 658
+[2021.06.01-20.58.42:777][861]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 648
+[2021.06.01-20.58.44:189][922]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 638
+[2021.06.01-20.58.44:649][936]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 628
+[2021.06.01-20.58.44:710][938]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 618
+[2021.06.01-20.58.45:019][950]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 608
+[2021.06.01-20.58.48:079][ 64]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 598
+[2021.06.01-20.58.48:789][ 94]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 588
+[2021.06.01-20.58.48:954][101]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2021.06.01-20.58.49:307][116]Cmd: TRANSACTION UNDO
+[2021.06.01-20.58.49:307][116]LogEditorTransaction: Undo Clicking on Actors
+[2021.06.01-20.58.49:785][127]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 578
+[2021.06.01-20.58.49:845][130]Cmd: TRANSACTION UNDO
+[2021.06.01-20.58.49:845][130]LogEditorTransaction: Undo Paste
+[2021.06.01-20.58.49:966][134]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 568
+[2021.06.01-20.58.50:336][163]Cmd: EDIT PASTE
+[2021.06.01-20.58.50:365][163]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.58.50:365][163]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/StarterContent/Architecture/Floor_400x400.Floor_400x400"''
+[2021.06.01-20.58.50:370][163]LogLinker: Warning: Unable to load package (../../../../Senior_Design/Template/Content/StarterContent/Architecture/Floor_400x400.uasset) PackageVersion 522, MaxExpected 518 : LicenseePackageVersion 0, MaxExpected 0.
+[2021.06.01-20.58.50:370][163]LogProperty: Warning: ObjectProperty /Script/Engine.StaticMeshComponent:StaticMesh: unresolved reference to 'StaticMesh'"/Game/StarterContent/Architecture/Floor_400x400.Floor_400x400"''
+[2021.06.01-20.58.50:391][163]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.01-20.58.51:225][204]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 558
+[2021.06.01-20.58.51:306][209]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 548
+[2021.06.01-20.58.51:347][212]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 538
+[2021.06.01-20.58.51:427][218]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 528
+[2021.06.01-20.58.53:452][318]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 518
+[2021.06.01-20.58.54:667][359]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 508
+[2021.06.01-20.58.55:069][382]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 498
+[2021.06.01-20.58.55:069][382]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 488
+[2021.06.01-20.58.57:134][439]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 478
+[2021.06.01-20.58.57:250][444]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 468
+[2021.06.01-20.58.58:008][477]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 458
+[2021.06.01-20.59.02:881][667]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 448
+[2021.06.01-20.59.02:947][669]LogTemp: Repeating last play command: Standalone Game
+[2021.06.01-20.59.02:995][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2021.06.01-20.59.03:177][669]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 438
+[2021.06.01-20.59.05:834][669]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 428
+[2021.06.01-20.59.05:957][669]LogSlate: Window 'Save Content' being destroyed
+[2021.06.01-20.59.05:979][669]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2021.06.01-20.59.05:979][669]PIE: Warning: PIE failed because map save was canceled
+[2021.06.01-20.59.06:204][674]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 418
+[2021.06.01-20.59.06:205][674]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 408
+[2021.06.01-20.59.07:208][719]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 398
+[2021.06.01-20.59.07:209][719]LogSlate: Window 'Message Log' being destroyed
+[2021.06.01-20.59.07:222][719]LogSlate: Window 'Message Log' being destroyed
+[2021.06.01-20.59.08:411][764]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 388
+[2021.06.01-20.59.10:126][824]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 378
+[2021.06.01-20.59.10:359][832]LogTemp: Repeating last play command: Standalone Game
+[2021.06.01-20.59.10:405][832]LogUObjectHash: Compacting FUObjectHashTables data took   6.40ms
+[2021.06.01-20.59.10:810][832]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 368
+[2021.06.01-20.59.11:296][832]LogSlate: Window 'Save Content' being destroyed
+[2021.06.01-20.59.11:389][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.06.01-20.59.11:429][832]LogSavePackage: Moving '../../../../Senior_Design/Template/Saved/Minimal_Default5D7F9D3B4BE40D0CDB779CB2831A26E8.tmp' to '../../../../Senior_Design/Template/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.06.01-20.59.11:466][832]LogFileHelpers: Saving map 'Minimal_Default' took 0.104
+[2021.06.01-20.59.11:539][833]AssetCheck: New page: Asset Save: Minimal_Default
+[2021.06.01-20.59.11:539][833]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2021.06.01-20.59.15:408][  6]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 358
+[2021.06.01-20.59.16:260][ 22]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 348
+[2021.06.01-20.59.16:369][ 25]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 338
+[2021.06.01-20.59.16:513][ 30]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 328
+[2021.06.01-20.59.16:725][ 36]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 318
+[2021.06.01-20.59.16:917][ 39]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 308
+[2021.06.01-20.59.18:774][ 78]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 298
+[2021.06.01-20.59.19:116][ 88]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 288
+[2021.06.01-20.59.20:416][113]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 278
+[2021.06.01-20.59.20:858][127]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 268
+[2021.06.01-20.59.25:045][243]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 258
+[2021.06.01-20.59.25:422][246]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 248
+[2021.06.01-20.59.25:422][246]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 238
+[2021.06.01-20.59.26:047][256]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 228
+[2021.06.01-20.59.26:484][263]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 218
+[2021.06.01-20.59.28:229][302]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 208
+[2021.06.01-20.59.28:489][308]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 198
+[2021.06.01-20.59.29:696][333]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 188
+[2021.06.01-20.59.29:755][334]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 178
+[2021.06.01-20.59.30:476][345]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 168
+[2021.06.01-20.59.31:197][357]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 158
+[2021.06.01-20.59.33:931][406]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 148
+[2021.06.01-20.59.35:943][435]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 138
+[2021.06.01-20.59.36:436][442]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 128
+[2021.06.01-20.59.37:889][475]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 118
+[2021.06.01-20.59.38:063][478]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 108
+[2021.06.01-20.59.41:012][544]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 98
+[2021.06.01-20.59.41:012][544]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 89
+[2021.06.01-20.59.41:336][546]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 80
+[2021.06.01-20.59.43:048][580]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 73
+[2021.06.01-20.59.44:605][613]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 66
+[2021.06.01-20.59.46:393][659]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 60
+[2021.06.01-20.59.47:251][681]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 54
+[2021.06.01-20.59.47:319][683]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 49
+[2021.06.01-20.59.49:812][735]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 44
+[2021.06.01-20.59.51:070][792]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 40
+[2021.06.01-20.59.52:405][831]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 36
+[2021.06.01-20.59.53:212][852]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 32
+[2021.06.01-20.59.54:619][887]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 29
+[2021.06.01-20.59.54:756][891]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 26
+[2021.06.01-20.59.54:757][891]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 23
+[2021.06.01-20.59.54:757][891]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 21
+[2021.06.01-20.59.54:969][897]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 19
+[2021.06.01-20.59.55:269][901]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 17
+[2021.06.01-20.59.55:434][902]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2021.06.01-20.59.55:457][903]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 13
+[2021.06.01-20.59.55:550][908]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 11
+[2021.06.01-20.59.56:314][931]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 10
+[2021.06.01-20.59.56:700][947]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 9
+[2021.06.01-20.59.56:844][953]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2021.06.01-20.59.57:396][971]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2021.06.01-20.59.57:441][973]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 6
+[2021.06.01-20.59.57:514][976]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 5
+[2021.06.01-20.59.57:550][978]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2021.06.01-20.59.57:690][983]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 3
+[2021.06.01-20.59.57:731][985]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 2
+[2021.06.01-20.59.57:796][988]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2021.06.01-21.00.01:818][164]LogTemp: Repeating last play command: Standalone Game
+[2021.06.01-21.00.01:860][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms

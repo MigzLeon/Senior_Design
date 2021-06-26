@@ -1,0 +1,1398 @@
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.MacPlatformSDK using manually installed SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.HoloLensPlatformSDK using manually installed SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.LinuxPlatformSDK has no valid SDK
+LuminSDKVersionHelper.HasAnySDK: *** Unable to determine MLSDK location ***
+LuminSDKVersionHelper.HasAnySDK: *** Unable to determine MLSDK location ***
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.LuminPlatformSDK has no valid SDK
+UEBuildPlatformSDK.PrintSDKInfo: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.9.31205.134, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910 (Version=14.28.29914)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.19041.0 at C:\Program Files (x86)\Windows Kits\10
+Log.PushStatus: Binding IntelliSense data...
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 0%
+UEBuildTarget.AddPlugin: Enabling plugin 'Paper2D' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AISupport' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LightPropagationVolume' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CameraShakePreviewer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorLayerUtilities' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AnimationSharing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SignificanceManager' (referenced via default plugins -> AnimationSharing.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CLionSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GitSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'KDevelopSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'NullSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PerforceSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlasticSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'RiderSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SubversionSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UObjectPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'XCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetManagerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CryptoKeys' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CurveEditorTools' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DataValidation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'FacialAnimation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GameplayTagsEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryMode' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MacGraphicsSwitching' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MaterialAnalyzer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobileLauncherProfileWizard' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PluginBrowser' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SpeedTreeImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DatasmithContent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VariantManagerContent' (referenced via default plugins -> DatasmithContent.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AlembicImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCache' (referenced via default plugins -> AlembicImporter.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AutomationUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ScreenshotTools' (referenced via default plugins -> AutomationUtils.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'BackChannel' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosClothEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosCloth' (referenced via default plugins -> ChaosClothEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlanarCut' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryProcessing' (referenced via default plugins -> ChaosEditor.uplugin -> PlanarCut.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'EditableMesh' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCollectionPlugin' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProceduralMeshComponent' (referenced via default plugins -> ChaosEditor.uplugin -> GeometryCollectionPlugin.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosSolverPlugin' (referenced via default plugins -> ChaosEditor.uplugin -> GeometryCollectionPlugin.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosNiagara' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Niagara' (referenced via default plugins -> ChaosNiagara.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CharacterAI' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlatformCrypto' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProxyLODPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SkeletalReduction' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LeapMotion' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MLSDK' (referenced via default plugins -> MagicLeapMedia.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeap' (referenced via default plugins -> MagicLeapMedia.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapPassableWorld' (referenced via default plugins -> MagicLeapMedia.uplugin -> MagicLeap.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapLightEstimation' (referenced via default plugins -> MagicLeapMedia.uplugin -> MagicLeap.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AvfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ImgMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaCompositing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaPlayerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WmfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MeshPainting' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TcpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LevelSequenceEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MatineeToLevelSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TemplateSequence' (referenced via default plugins -> MatineeToLevelSequence.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MovieRenderPipeline' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'EditorScriptingUtilities' (referenced via default plugins -> MovieRenderPipeline.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'NetcodeUnitTest' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'NUTUnrealEngine4' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystem' (referenced via default plugins -> OnlineSubsystemGooglePlay.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidPermission' (referenced via default plugins -> OnlineSubsystemGooglePlay.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemIOS' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemNull' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemUtils' (referenced via default plugins -> OnlineSubsystemNull.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'LauncherChunkInstaller' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleImageUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ArchVisCharacter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetTags' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AudioCapture' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CableComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CustomMeshComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ExampleDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GoogleCloudMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GooglePAD' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'IOSDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LinuxDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LocationServicesBPLibrary' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobilePatchingUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OculusVR' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PhysXVehicles' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PostSplashScreen' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'RuntimePhysXCooking' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SoundFields' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SteamVR' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Synthesis' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMedia' (referenced via default plugins -> WebMMoviePlayer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'WindowsMoviePlayer' (referenced via default plugins)
+LuminSDKVersionHelper.HasAnySDK: *** Unable to determine MLSDK location ***
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 2%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 5%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 7%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 9%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 11%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 14%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 16%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 18%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 20%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 23%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 25%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 27%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 30%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 32%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 34%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 36%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 39%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 41%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 43%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 45%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 48%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 50%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 52%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 55%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UdpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 57%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 66%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 68%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 70%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 73%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 75%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'XCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'TcpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 77%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UdpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 80%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UdpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'GameplayInsights' (referenced via DefaultEngine.ini)
+UEBuildTarget.AddPlugin: Enabling plugin 'TraceDataFilters' (referenced via DefaultEngine.ini)
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 82%
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via DefaultEngine.ini)
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 84%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertSyncServer' (referenced via DefaultEngine.ini)
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertMain' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertSyncCore' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'SQLiteCore' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin -> ConcertSyncCore.uplugin)
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 86%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'PlatformCrypto' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UdpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 89%
+UEBuildTarget.AddPlugin: Ignoring plugin 'Paper2D' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AISupport' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LightPropagationVolume' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CameraShakePreviewer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorLayerUtilities' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AnimationSharing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CLionSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GitSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'KDevelopSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NullSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PerforceSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlasticSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RiderSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SubversionSourceControl' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'UObjectPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'XCodeSourceCodeAccess' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetManagerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CryptoKeys' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CurveEditorTools' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DataValidation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'FacialAnimation' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GameplayTagsEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryMode' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MacGraphicsSwitching' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MaterialAnalyzer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobileLauncherProfileWizard' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PluginBrowser' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SpeedTreeImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'DatasmithContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'VariantManagerContent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AlembicImporter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AutomationUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'BackChannel' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosClothEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosCloth' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosNiagara' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ChaosSolverPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CharacterAI' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GeometryCache' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PlatformCrypto' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProxyLODPlugin' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SkeletalReduction' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LeapMotion' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapMedia' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeapPassableWorld' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MagicLeap' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MLSDK' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AvfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ImgMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaCompositing' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MediaPlayerEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WmfMedia' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MeshPainting' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'TcpMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Ignoring plugin 'ActorSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LevelSequenceEditor' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MatineeToLevelSequence' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MovieRenderPipeline' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NetcodeUnitTest' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'NUTUnrealEngine4' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemIOS' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemNull' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystemUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OnlineSubsystem' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LauncherChunkInstaller' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AndroidPermission' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleImageUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AppleMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ArchVisCharacter' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AssetTags' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'AudioCapture' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CableComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'CustomMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'EditableMesh' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ExampleDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GoogleCloudMessaging' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'GooglePAD' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'IOSDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LinuxDeviceProfileSelector' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'LocationServicesBPLibrary' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'MobilePatchingUtils' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'OculusVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PhysXVehicles' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'PostSplashScreen' (referenced via default plugins) due to unsupported target platform.
+UEBuildTarget.AddPlugin: Ignoring plugin 'ProceduralMeshComponent' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'RuntimePhysXCooking' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SoundFields' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'SteamVR' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'Synthesis' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WebMMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Ignoring plugin 'WindowsMoviePlayer' (referenced via default plugins) due to absence from supported programs list.
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertSyncServer' (referenced via DefaultEngine.ini)
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertMain' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ConcertSyncCore' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'SQLiteCore' (referenced via DefaultEngine.ini -> ConcertSyncServer.uplugin -> ConcertSyncCore.uplugin)
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 91%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 93%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 95%
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 98%
+UEBuildTarget.AddPlugin: Enabling plugin 'LeapMotion' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LeapUnreal' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Paper2D' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AISupport' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LightPropagationVolume' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CameraShakePreviewer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorLayerUtilities' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AnimationSharing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SignificanceManager' (referenced via default plugins -> AnimationSharing.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CLionSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CodeLiteSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GitSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'KDevelopSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'NullSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PerforceSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlasticSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'RiderSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SubversionSourceControl' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UObjectPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VisualStudioSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'XCodeSourceCodeAccess' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetManagerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CryptoKeys' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CurveEditorTools' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DataValidation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'FacialAnimation' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GameplayTagsEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryMode' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MacGraphicsSwitching' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MaterialAnalyzer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobileLauncherProfileWizard' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PluginBrowser' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SpeedTreeImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'DatasmithContent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'VariantManagerContent' (referenced via default plugins -> DatasmithContent.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AlembicImporter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCache' (referenced via default plugins -> AlembicImporter.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AutomationUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ScreenshotTools' (referenced via default plugins -> AutomationUtils.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'BackChannel' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosClothEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosCloth' (referenced via default plugins -> ChaosClothEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlanarCut' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryProcessing' (referenced via default plugins -> ChaosEditor.uplugin -> PlanarCut.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'EditableMesh' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'GeometryCollectionPlugin' (referenced via default plugins -> ChaosEditor.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProceduralMeshComponent' (referenced via default plugins -> ChaosEditor.uplugin -> GeometryCollectionPlugin.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosSolverPlugin' (referenced via default plugins -> ChaosEditor.uplugin -> GeometryCollectionPlugin.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'ChaosNiagara' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Niagara' (referenced via default plugins -> ChaosNiagara.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'CharacterAI' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PlatformCrypto' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ProxyLODPlugin' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SkeletalReduction' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MLSDK' (referenced via default plugins -> MagicLeapMedia.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeap' (referenced via default plugins -> MagicLeapMedia.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapPassableWorld' (referenced via default plugins -> MagicLeapMedia.uplugin -> MagicLeap.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MagicLeapLightEstimation' (referenced via default plugins -> MagicLeapMedia.uplugin -> MagicLeap.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AvfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ImgMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaCompositing' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MediaPlayerEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WmfMedia' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MeshPainting' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TcpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'UdpMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ActorSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LevelSequenceEditor' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MatineeToLevelSequence' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'TemplateSequence' (referenced via default plugins -> MatineeToLevelSequence.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'MovieRenderPipeline' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'EditorScriptingUtilities' (referenced via default plugins -> MovieRenderPipeline.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'NetcodeUnitTest' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'NUTUnrealEngine4' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemGooglePlay' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystem' (referenced via default plugins -> OnlineSubsystemGooglePlay.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidPermission' (referenced via default plugins -> OnlineSubsystemGooglePlay.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemIOS' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemNull' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OnlineSubsystemUtils' (referenced via default plugins -> OnlineSubsystemNull.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'LauncherChunkInstaller' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AndroidMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleImageUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AppleMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ArchVisCharacter' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AssetTags' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'AudioCapture' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CableComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'CustomMeshComponent' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'ExampleDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GoogleCloudMessaging' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'GooglePAD' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'IOSDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LinuxDeviceProfileSelector' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'LocationServicesBPLibrary' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'MobilePatchingUtils' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'OculusVR' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PhysXVehicles' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'PostSplashScreen' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'RuntimePhysXCooking' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'SoundFields' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'Synthesis' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMoviePlayer' (referenced via default plugins)
+UEBuildTarget.AddPlugin: Enabling plugin 'WebMMedia' (referenced via default plugins -> WebMMoviePlayer.uplugin)
+UEBuildTarget.AddPlugin: Enabling plugin 'WindowsMoviePlayer' (referenced via default plugins)
+LuminSDKVersionHelper.HasAnySDK: *** Unable to determine MLSDK location ***
+VCToolChain..ctor: Compiler: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\cl.exe
+VCToolChain..ctor: Linker: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe
+VCToolChain..ctor: Library Manager: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\lib.exe
+VCToolChain..ctor: Resource Compiler: C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64\rc.exe
+ProgressWriter.Write: @progress 'Binding IntelliSense data...' 100%
+Log.PushStatus: Writing project files...
+ProgressWriter.Write: @progress 'Writing project files...' 0%
+ProgressWriter.Write: @progress 'Writing project files...' 2%
+ProgressWriter.Write: @progress 'Writing project files...' 4%
+ProgressWriter.Write: @progress 'Writing project files...' 7%
+ProgressWriter.Write: @progress 'Writing project files...' 9%
+ProgressWriter.Write: @progress 'Writing project files...' 11%
+ProgressWriter.Write: @progress 'Writing project files...' 13%
+ProgressWriter.Write: @progress 'Writing project files...' 16%
+ProgressWriter.Write: @progress 'Writing project files...' 18%
+ProgressWriter.Write: @progress 'Writing project files...' 20%
+ProgressWriter.Write: @progress 'Writing project files...' 22%
+ProgressWriter.Write: @progress 'Writing project files...' 24%
+ProgressWriter.Write: @progress 'Writing project files...' 27%
+ProgressWriter.Write: @progress 'Writing project files...' 29%
+ProgressWriter.Write: @progress 'Writing project files...' 31%
+ProgressWriter.Write: @progress 'Writing project files...' 33%
+ProgressWriter.Write: @progress 'Writing project files...' 36%
+ProgressWriter.Write: @progress 'Writing project files...' 38%
+ProgressWriter.Write: @progress 'Writing project files...' 40%
+ProgressWriter.Write: @progress 'Writing project files...' 42%
+ProgressWriter.Write: @progress 'Writing project files...' 44%
+ProgressWriter.Write: @progress 'Writing project files...' 47%
+ProgressWriter.Write: @progress 'Writing project files...' 49%
+ProgressWriter.Write: @progress 'Writing project files...' 51%
+ProgressWriter.Write: @progress 'Writing project files...' 53%
+ProgressWriter.Write: @progress 'Writing project files...' 56%
+ProgressWriter.Write: @progress 'Writing project files...' 58%
+ProgressWriter.Write: @progress 'Writing project files...' 60%
+ProgressWriter.Write: @progress 'Writing project files...' 62%
+ProgressWriter.Write: @progress 'Writing project files...' 64%
+ProgressWriter.Write: @progress 'Writing project files...' 67%
+ProgressWriter.Write: @progress 'Writing project files...' 69%
+ProgressWriter.Write: @progress 'Writing project files...' 71%
+ProgressWriter.Write: @progress 'Writing project files...' 73%
+ProgressWriter.Write: @progress 'Writing project files...' 76%
+ProgressWriter.Write: @progress 'Writing project files...' 78%
+ProgressWriter.Write: @progress 'Writing project files...' 80%
+ProgressWriter.Write: @progress 'Writing project files...' 82%
+ProgressWriter.Write: @progress 'Writing project files...' 84%
+ProgressWriter.Write: @progress 'Writing project files...' 87%
+ProgressWriter.Write: @progress 'Writing project files...' 89%
+ProgressWriter.Write: @progress 'Writing project files...' 91%
+ProgressWriter.Write: @progress 'Writing project files...' 93%
+ProgressWriter.Write: @progress 'Writing project files...' 96%
+ProgressWriter.Write: @progress 'Writing project files...' 98%
+ProgressWriter.Write: @progress 'Writing project files...' 100%
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.048) <unknown>
+Timeline.Print: [ 0.048](+0.021) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.069](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.069](+0.072) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.074          [ 0.005](+0.027) Initializing InstalledPlatformInfo
+Timeline.Print:   0.102          [ 0.032](+0.000) Querying types
+Timeline.Print:   0.105          [ 0.035](+0.013) MacPlatformFactory
+Timeline.Print:   0.119          [ 0.049](+0.003) TVOSPlatformFactory
+Timeline.Print:   0.122          [ 0.053](+0.003) AndroidPlatformFactory
+Timeline.Print:   0.126          [ 0.056](+0.001) HoloLensPlatformFactory
+Timeline.Print:   0.128          [ 0.058](+0.002) IOSPlatformFactory
+Timeline.Print:   0.130          [ 0.061](+0.002) LinuxPlatformFactory
+Timeline.Print:   0.132          [ 0.063](+0.005) LuminPlatformFactory
+Timeline.Print:   0.138          [ 0.068](+0.003) WindowsPlatformFactory
+Timeline.Print: [ 0.142](+0.480) <unknown>
+Timeline.Print: [ 0.623](+0.003) Finding engine modules
+Timeline.Print: [ 0.626](+0.002) Finding plugin modules
+Timeline.Print: [ 0.629](+0.049) <unknown>
+Timeline.Print: [ 0.678](+0.000) Finding program modules
+Timeline.Print: [ 0.679](+0.000) Finding program targets
+Timeline.Print: [ 0.679](+2.007) <unknown>
+Timeline.Print: [ 2.687](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 2.687](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 2.695](+0.199) UEBuildTarget constructor
+Timeline.Print:   2.699          [ 0.004](+0.194) Reading source file metadata cache
+Timeline.Print: [ 2.895](+1.390) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 4.285](+0.778) <unknown>
+Timeline.Print: [ 5.064](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.064](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.066](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.066](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.071](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.071](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.072](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.072](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.076](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.076](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.084](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.084](+0.006) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.091](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.091](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.093](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.093](+0.006) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.100](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.100](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.102](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.102](+0.011) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.115](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.115](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.117](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.117](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.123](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.123](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.125](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.125](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.130](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.130](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.132](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.132](+0.006) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.139](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.139](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.141](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.141](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.145](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.145](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.147](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.147](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.152](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.152](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.153](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.153](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.158](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.158](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.159](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.159](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.163](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.163](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.165](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.165](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.169](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.169](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.171](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.171](+0.005) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.177](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.177](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.179](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.179](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.184](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.184](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.186](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.186](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.191](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.191](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.193](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.193](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.198](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.198](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.199](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.199](+0.003) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.204](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.204](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.205](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.205](+0.007) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.215](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.215](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.217](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.217](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.222](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.222](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.223](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.223](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.228](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.228](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.230](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.230](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.235](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.235](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.236](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.236](+0.006) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.244](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.244](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.246](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.246](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.257](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.257](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.259](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.259](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.270](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.270](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.271](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.271](+0.007) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.280](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.280](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.281](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.281](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.288](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.288](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.290](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.290](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.295](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.295](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.296](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.296](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.307](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.307](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.308](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.308](+0.023) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.333](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.333](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.335](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.335](+0.007) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.343](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.343](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.345](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.345](+0.013) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.360](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.360](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.361](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.361](+0.005) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.368](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.368](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.369](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.369](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.379](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.379](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.382](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.382](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.392](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.392](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.394](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.394](+0.009) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.405](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.405](+0.003) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.409](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.409](+0.005) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.416](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.416](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.417](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.417](+0.004) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.425](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.425](+0.002) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.428](+0.000) UEBuildTarget constructor
+Timeline.Print: [ 5.428](+0.002) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 5.430](+0.000) RulesCompiler.CreateTargetRulesAssembly()
+Timeline.Print: [ 5.430](+0.001) RulesAssembly.CreateTargetRules()
+Timeline.Print: [ 5.434](+0.252) UEBuildTarget constructor
+Timeline.Print:   5.434          [ 0.000](+0.251) Reading source file metadata cache
+Timeline.Print: [ 5.686](+0.318) UEBuildTarget.PreBuildSetup()
+Timeline.Print: [ 6.004](+4.440) <unknown>
+Timeline.Print: [10.445](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [10.446]
